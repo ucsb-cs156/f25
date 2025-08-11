@@ -7,12 +7,12 @@ title: jpa05
 prev_lab: jpa00
 nav_order: 100
 ready: false
-qxx: s25
+qxx: f25
 layout: default
 parent: lab
-course_org: https://github.com/ucsb-cs156-s25
-course_org_name: ucsb-cs156-s25
-starter_repo: https://github.com/ucsb-cs156-s25/STARTER-jpa05
+course_org: https://github.com/ucsb-cs156-f25
+course_org_name: ucsb-cs156-f25
+starter_repo: https://github.com/ucsb-cs156-f25/STARTER-jpa05
 canvas_link_a: https://ucsb.instructure.com/courses/25659/assignments/361787
 canvas_link_b: https://ucsb.instructure.com/courses/25659/assignments/361790
 ---
@@ -232,7 +232,7 @@ Once the key is uploaded, you're all set to be able to sign your commits!
 
 ## Step 3: Make a test commit and push to GitHub
 
-Just like in [{{page.prev_lab}}](/s25/labs/{{page.prev_lab}}.html), change the file `src/main/java/Hello.java` so that the `System.out.println` method call reads:
+Just like in [{{page.prev_lab}}](/f25/labs/{{page.prev_lab}}.html), change the file `src/main/java/Hello.java` so that the `System.out.println` method call reads:
 
 ```
         System.out.println("Hello, World!");
@@ -248,9 +248,9 @@ git push origin main
 
 Ensure when you push to GitHub, your output does not look like this:
 ```bash
-To github.com:ucsb-cs156-s25/jpa05-yourGithubId.git
+To github.com:ucsb-cs156-f25/jpa05-yourGithubId.git
  ! [remote rejected]   main -> main (push declined due to repository rule violations)
-error: failed to push some refs to 'github.com:ucsb-cs156-s25/jpa05-yourGithubId.git'
+error: failed to push some refs to 'github.com:ucsb-cs156-f25/jpa05-yourGithubId.git'
 ```
 
 If so, please ask for help in the slack channel.

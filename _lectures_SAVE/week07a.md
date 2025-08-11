@@ -9,7 +9,7 @@ parent: lectures
 
 # {{page.title}} - {{page.descripion}}
 
-Please see: <https://ucsb-cs156.github.io/s25/lab/project.html>
+Please see: <https://ucsb-cs156.github.io/f25/lab/project.html>
 
 ## What you should do today
 

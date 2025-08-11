@@ -29,10 +29,10 @@ So please let your team know if you will be late, missing, etc.  Don't "just dis
 
 Today, we'll work on 
 
-* [jpa00](https://ucsb-cs156.github.io/s25/lab/jpa00.html)
-* [jpa01](https://ucsb-cs156.github.io/s25/lab/jpa01.html)
-* [jpa02](https://ucsb-cs156.github.io/s25/lab/jpa02.html)
-* [jpa03](https://ucsb-cs156.github.io/s25/lab/jpa03.html)
+* [jpa00](https://ucsb-cs156.github.io/f25/lab/jpa00.html)
+* [jpa01](https://ucsb-cs156.github.io/f25/lab/jpa01.html)
+* [jpa02](https://ucsb-cs156.github.io/f25/lab/jpa02.html)
+* [jpa03](https://ucsb-cs156.github.io/f25/lab/jpa03.html)
 
 You should work independently, but also help other folks on your team as/when they get stuck on things.
 

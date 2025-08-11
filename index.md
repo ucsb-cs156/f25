@@ -1,5 +1,5 @@
 ---
-title: CS156 s25
+title: CS156 f25
 permalink: "/"
 layout: default
 nav_order: 0
@@ -7,20 +7,20 @@ nav_order: 0
 
 # {{site.title}}, {{site.quarter}}
 
-[Legacy Code Project Info](https://ucsb-cs156.github.io/s25/lab/project.html)
+[Legacy Code Project Info](https://ucsb-cs156.github.io/f25/lab/project.html)
 
 On Canvas: <{{site.aux_links["Canvas"]}}>
 
-Course Github Org: <https://github.com/ucsb-cs156-s25>
+Course Github Org: <https://github.com/ucsb-cs156-f25>
 
-Seating Chart: <https://bit.ly/cs156-s25-teams>
+Seating Chart: <https://bit.ly/cs156-f25-teams>
 
 QR Code for Seating Chart: 
 
 
-<img alt="qr code for https://bit.ly/cs156-s25-teams" src="https://github.com/user-attachments/assets/9725e7a7-4dfb-473d-b7fd-b8204bf7d7de" width="250">
+<img alt="qr code for https://bit.ly/cs156-f25-teams" src="https://github.com/user-attachments/assets/9725e7a7-4dfb-473d-b7fd-b8204bf7d7de" width="250">
 
-<!-- Legacy Code Project: <https://ucsb-cs156.github.io/s25/lab/project.html> -->
+<!-- Legacy Code Project: <https://ucsb-cs156.github.io/f25/lab/project.html> -->
 
 ## Thanks
 

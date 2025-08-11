@@ -7,8 +7,8 @@ layout: default
 parent: lectures
 retro_part_asn: TBD
 canvas_retro_submission: TBD
-team02: "[team02](https://ucsb-cs156.github.io/s25/lab/team02.html)"
-team03: "[team03](https://ucsb-cs156.github.io/s25/lab/team03.html)"
+team02: "[team02](https://ucsb-cs156.github.io/f25/lab/team02.html)"
+team03: "[team03](https://ucsb-cs156.github.io/f25/lab/team03.html)"
 js_hwk: TBD
 ---
 

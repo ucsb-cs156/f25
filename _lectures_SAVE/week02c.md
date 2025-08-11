@@ -18,7 +18,7 @@ Pretty much:
 
 So we introduced 
 
-* [jpa04](https://ucsb-cs156.github.io/s25/lab/jpa04.html)
+* [jpa04](https://ucsb-cs156.github.io/f25/lab/jpa04.html)
 
 Then invited everyone to work on jpa02, jpa03, jpa04
 

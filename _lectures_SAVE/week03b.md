@@ -18,7 +18,7 @@ parent: lectures
 ## Introduce P06, team01, Kanban board
 
 Please complete this team activity in section today:
-* <https://ucsb-cs156.github.io/s25/hwk/p06/>
+* <https://ucsb-cs156.github.io/f25/hwk/p06/>
 
 Then:
 * If not done: work on H01, H02, jpa03, jpa04

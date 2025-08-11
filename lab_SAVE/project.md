@@ -4,27 +4,27 @@ desc: "Legacy Code Project instructions"
 assigned: 2025-05-13 17:00
 due: 2025-05-23 23:59
 initial_sprint_planning_deadline: 2025-05-14 20:00
-github_org: ucsb-cs156-s25
+github_org: ucsb-cs156-f25
 layout: lab
 layout: default
 parent: lab
 num: project
 nav_order: 700
-proj_courses_slack_url: https://ucsb-cs156-s25.slack.com/archives/C08R52XTP0X
-proj_frontiers_slack_url: https://ucsb-cs156-s25.slack.com/archives/C08S7GMA332
-proj_dining_slack_url: https://ucsb-cs156-s25.slack.com/archives/C08RD087D2A
-proj_rec_slack_url: https://ucsb-cs156-s25.slack.com/archives/C08S7GMR35E
-qxx: s25
-githubOrgUrl: https://github.com/ucsb-cs156-s25
-githubProjectsUrl: https://github.com/orgs/ucsb-cs156-s25/projects
-githubPagesUrl: https://ucsb-cs156-s25.github.io
+proj_courses_slack_url: https://ucsb-cs156-f25.slack.com/archives/C08R52XTP0X
+proj_frontiers_slack_url: https://ucsb-cs156-f25.slack.com/archives/C08S7GMA332
+proj_dining_slack_url: https://ucsb-cs156-f25.slack.com/archives/C08RD087D2A
+proj_rec_slack_url: https://ucsb-cs156-f25.slack.com/archives/C08S7GMR35E
+qxx: f25
+githubOrgUrl: https://github.com/ucsb-cs156-f25
+githubProjectsUrl: https://github.com/orgs/ucsb-cs156-f25/projects
+githubPagesUrl: https://ucsb-cs156-f25.github.io
 ---
 
 <style>
   td, th { min-width: auto}
 </style>
 
-# s25 Legacy Project Launch
+# f25 Legacy Project Launch
 
 On {{ page.assigned | date: '%A %B %d %Y at %l:%M%p' }}, in lecture, we'll launch the legacy code projects.
 
@@ -215,7 +215,7 @@ Staff information for legacy code phase
 
 ## Creating the team repos
 
-Use the scripts in <https://github.com/ucsb-cs156-s25/membership-scripts> to create the repos and set them up with branch protections, etc.
+Use the scripts in <https://github.com/ucsb-cs156-f25/membership-scripts> to create the repos and set them up with branch protections, etc.
 
 ## Preparing starter repos
 
@@ -240,14 +240,14 @@ Instructions for setting up branch protections can be found here:
 
 ### Be sure issues you want students to work on are tagged
 
-Check the issues list. Make a tag (e.g. `S25`) for the issues you want the students to work on.
+Check the issues list. Make a tag (e.g. `F25`) for the issues you want the students to work on.
 
 ### Set variable to used used by workflow 99
 
-In workflow 99, the tag gets its value from the organization variable QXX which should be set to match the tag (e.g. `S25`) that's 
+In workflow 99, the tag gets its value from the organization variable QXX which should be set to match the tag (e.g. `F25`) that's 
 applied to the issues you want to bulk copy over.
 
-* Visit: <https://github.com/organizations/ucsb-cs156-s25/settings/variables/actions> to set that value, e.g. to `S25`
+* Visit: <https://github.com/organizations/ucsb-cs156-f25/settings/variables/actions> to set that value, e.g. to `F25`
 
 It should look like this:
 
@@ -318,17 +318,17 @@ Next, put these numbers in `_config.yml` file of the repo for the course website
 
 ## Link the kanban board to the repos
 
-Use the script: <https://github.com/ucsb-cs156-s25/membership-scripts/actions/workflows/45-link-team-projects.yml>
+Use the script: <https://github.com/ucsb-cs156-f25/membership-scripts/actions/workflows/45-link-team-projects.yml>
 
 
 ## Populate repos
 
-Scripts to populate the repos are in <https://github.com/ucsb-cs156-s25/project-creator>
+Scripts to populate the repos are in <https://github.com/ucsb-cs156-f25/project-creator>
 
 
 ## Configure repos
 
-Use this script: <https://github.com/ucsb-cs156-s25/membership-scripts/actions/workflows/70-setup-project-repo.yml>
+Use this script: <https://github.com/ucsb-cs156-f25/membership-scripts/actions/workflows/70-setup-project-repo.yml>
 
 ## Populate the issues
 

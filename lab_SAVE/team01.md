@@ -6,20 +6,20 @@ layout: default
 title: team01
 nav_order: 100
 ready: false
-qxx: s25
+qxx: f25
 layout: default
 parent: lab
-sample_team: s25-03
-github_org_url: https://github.com/ucsb-cs156-s25
-github_org: ucsb-cs156-s25
-starter_repo: https://github.com/ucsb-cs156-s25/STARTER-team01
-starter_repo_url: git@github.com:ucsb-cs156-s25/STARTER-team01.git
-slack_help_channel: "[#help-team01](https://ucsb-cs156-s25.slack.com/archives/C08N24HMQAV)" 
-teams_url: https://bit.ly/cs156-s25-teams
-office_hours_page: https://ucsb-cs156.github.io/s25/office-hours
-software_install_url: https://ucsb-cs156.github.io/s25/info/software.html
+sample_team: f25-03
+github_org_url: https://github.com/ucsb-cs156-f25
+github_org: ucsb-cs156-f25
+starter_repo: https://github.com/ucsb-cs156-f25/STARTER-team01
+starter_repo_url: git@github.com:ucsb-cs156-f25/STARTER-team01.git
+slack_help_channel: "[#help-team01](https://ucsb-cs156-f25.slack.com/archives/C08N24HMQAV)" 
+teams_url: https://bit.ly/cs156-f25-teams
+office_hours_page: https://ucsb-cs156.github.io/f25/office-hours
+software_install_url: https://ucsb-cs156.github.io/f25/info/software.html
 staff_emails: "djensen@ucsb.edu,benjaminconte@ucsb.edu,samuelzhu@ucsb.edu,divyanipunj@ucsb.edu,sangitakunapuli@ucsb.edu,amey@ucsb.edu,phtcon@ucsb.edu"
-starter_storybook: "https://ucsb-cs156-s25.github.io/STARTER-team01/chromatic"
+starter_storybook: "https://ucsb-cs156-f25.github.io/STARTER-team01/chromatic"
 canvas_link: "https://ucsb.instructure.com/courses/25659/assignments/348164"
 example_full_running_app: "[team01](https://team01.dokku-00.cs.ucsb.edu)"
 num_issues: 42
@@ -90,7 +90,7 @@ There may be more columns or fewer, though typically at a minimum, there is:
 
 Here's how that will play out in detail:
 
-1. Navigate to the web page for the GitHub organization, i.e. <https://github.com/{{page.github_org}}>.  You'll see a tab for `Projects`. Click on that tab.  You should then see a project for your team for the team01 assignment, e.g. `team01-s25-01`, `team01-s25-02`,etc.
+1. Navigate to the web page for the GitHub organization, i.e. <https://github.com/{{page.github_org}}>.  You'll see a tab for `Projects`. Click on that tab.  You should then see a project for your team for the team01 assignment, e.g. `team01-f25-01`, `team01-f25-02`,etc.
 2. Open the link for your team's Project.  You should find four columns: `Todo`, `In Progress`, `In Review`, `Done`
 3. The `Todo` column will be populated with a set of tasks, which are called *Issues* in the GitHub implementation of Kanban.  These correspond to the Issues that we'll also see in the `Issues` column of your repo.
 4. Now navigate to your repo for {{page.title}}, which will have a url such as: <https://github.com/{{page.github_org}}/{{page.title}}-{{page.sample_team}}>.  You will see a tab for `Issues`. Click on that tab.
@@ -1082,7 +1082,7 @@ The next step was probably already done in team01, but just in case:
 
   <img width="972" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/99fead23-d9d0-4373-a435-466c5ef9e752">
 
-## For S25
+## For F25
 
 * Consider updating the issues in 99-team01.yml to guide the students through branch hygeine.  Otherwise, they are likely to make one big branch and one big PR for the entire project.
 

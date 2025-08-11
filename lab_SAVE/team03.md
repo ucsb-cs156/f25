@@ -6,13 +6,13 @@ due: 2025-05-08
 title: team03
 repo_to_work_in: team02
 layout: default
-qxx: s25
+qxx: f25
 canvas: https://ucsb.instructure.com/courses/25659/assignments/348166
-starter: https://github.com/ucsb-cs156-s25/STARTER-team02
-sample_team: s25-04
+starter: https://github.com/ucsb-cs156-f25/STARTER-team02
+sample_team: f25-04
 layout: default
 parent: lab
-github_org_url: https://github.com/ucsb-cs156-s25/
+github_org_url: https://github.com/ucsb-cs156-f25/
 video_testing_pyramid: "[team03 01 - Testing Pyramid (10 min)](https://youtu.be/zvLlO8EUh0c)"
 video_integration_tests: "[team03 02 - Integration Tests (24 min)](https://youtu.be/ohPxfE0hbZI)"
 video_e2e_tests: "[team03 03 - End-to-end Tests (32 min)](https://youtu.be/SGhXLNJrA8I)"
@@ -272,7 +272,7 @@ When all team members are finished, and all PRs are merged, submit a link to you
 
 ## Appendix: If you started before 6pm, Tuesday Nov 5th
 
-Note: there was a typo in the instructions that said to merge in the code from S24 instead of s25.
+Note: there was a typo in the instructions that said to merge in the code from S24 instead of f25.
 
 That would result in one of the existing integration tests failing, namely the one for Swagger.
 

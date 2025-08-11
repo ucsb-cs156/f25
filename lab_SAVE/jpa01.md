@@ -8,13 +8,13 @@ nav_order: 100
 ready: false
 layout: default
 parent: lab
-course_org: https://github.com/ucsb-cs156-s25
-course_org_name: ucsb-cs156-s25
-starter_repo: https://github.com/ucsb-cs156-s25/STARTER-jpa01
-software: https://ucsb-cs156.github.io/s25/info/software.html
-install_check: https://ucsb-cs156.github.io/s25/info/install_check.html
+course_org: https://github.com/ucsb-cs156-f25
+course_org_name: ucsb-cs156-f25
+starter_repo: https://github.com/ucsb-cs156-f25/STARTER-jpa01
+software: https://ucsb-cs156.github.io/f25/info/software.html
+install_check: https://ucsb-cs156.github.io/f25/info/install_check.html
 canvas_link: https://ucsb.instructure.com/courses/25659/assignments/348156
-teams_link: "<https://bit.ly/cs156-s25-teams>"
+teams_link: "<https://bit.ly/cs156-f25-teams>"
 ---
 
 {% include drop_down_style.html %}
@@ -161,7 +161,7 @@ Clone that repo somewhere and cd into it.
 
 Then add this remote:
 
-<tt>`git remote add starter git@github.com:ucsb-cs156-s25/STARTER-jpa01.git`</tt>
+<tt>`git remote add starter git@github.com:ucsb-cs156-f25/STARTER-jpa01.git`</tt>
 
 Then do:
 

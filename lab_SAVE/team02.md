@@ -3,20 +3,20 @@ title: team02
 description: "Team Project: React CRUD frontend"
 assigned: 2025-04-24
 due: 2025-05-02 23:59
-github_org: ucsb-cs156-s25
-github_org_url: https://github.com/ucsb-cs156-s25
-sample_team: s25-01
+github_org: ucsb-cs156-f25
+github_org_url: https://github.com/ucsb-cs156-f25
+sample_team: f25-01
 layout: lab
 layout: default
 parent: lab
 prev_assignment: team01
 nav_order: 203
 ready: true
-starter: https://github.com/ucsb-cs156-s25/STARTER-team02
+starter: https://github.com/ucsb-cs156-f25/STARTER-team02
 deployment: https://team02.dokku-00.cs.ucsb.edu/
-storybook: https://ucsb-cs156-s25.github.io/STARTER-team02/chromatic
+storybook: https://ucsb-cs156-f25.github.io/STARTER-team02/chromatic
 canvas: https://ucsb.instructure.com/courses/25659/assignments/348165
-help_team02: "[<tt>#help-team02</tt>](https://ucsb-cs156-s25.slack.com/archives/C08MUGUKDGS)"
+help_team02: "[<tt>#help-team02</tt>](https://ucsb-cs156-f25.slack.com/archives/C08MUGUKDGS)"
 nvm_use: "<tt>nvm use 22.14.0</tt>"
 ---
 <style>
@@ -86,7 +86,7 @@ If this presents a difficulty, please contact the instructor ASAP so that some a
 
 ## A few words about Chromatic
 
-This quarter, s25 is the **first time** that we are trying to incoporate Chromatic visual difference testing into the course.
+This quarter, f25 is the **first time** that we are trying to incoporate Chromatic visual difference testing into the course.
 
 Accordingly, we may run into **unexpected issues**.  Sometimes the only way to know how a technology will work when you turn 96 students loose on it in a course is to **try it, and see what happens**.
 
@@ -560,7 +560,7 @@ Before releasing this lab to students, be sure the following tasks are done:
 * Set up starter code in the course organization, and update links
 * Create a Canvas assignment for <{{page.title}}>; update the due dates and publish it
 * Create projects for all of the groups. You can find a script for this here:
-  * <https://github.com/ucsb-cs156-s25/project-creator/blob/main/scripts/<{{page.title}}>-projects.sh>
+  * <https://github.com/ucsb-cs156-f25/project-creator/blob/main/scripts/<{{page.title}}>-projects.sh>
   You will probably need to make a new copy of that repo for this quarter in this
   quarter's organization and update the scripts.
 * After running the script, there are three aspects of setting up the projects that

@@ -1,12 +1,12 @@
 ---
-title: "Week 01a - 04.01 Tue"
-lecture_date: 2025-04-01
+title: "Week 00c - 08.25 Thu"
+lecture_date: 2025-08.25
 description: "Introduction to CS156"
 ready: true
 layout: default
 parent: lectures
 slides: https://docs.google.com/presentation/d/1mMBxU94WcBvLL7crfa7MpADXQkMEILJ6H4NkjfvadA4/edit?usp=sharing
-slack_help_lecture_discussion: https://ucsb-cs156-s25.slack.com/archives/tbd
+slack_help_lecture_discussion: https://ucsb-cs156-f25.slack.com/archives/tbd
 link_to_self_intro_activity: tbd
 link_to_team_first_day_activity: tbd
 ---
@@ -15,7 +15,7 @@ Link to [Slides]({{page.slides}})
 
 # Please sit with your team:
 
-Team list: <https://bit.ly/cs156-s25-teams>
+Team list: <https://bit.ly/cs156-f25-teams>
 
 
 # My special passion: Teaching real world software practice
@@ -77,14 +77,14 @@ Here: <https://ucsb-cs156.github.io>
 
 Note the two parts:
 * Permanent part for CS156
-* The part for `/s25/` specifically
+* The part for `/f25/` specifically
 
 
 # Where is the syllabus?
 
 Here:
 
-* <https://ucsb-cs156.github.io/s25/syllabus>
+* <https://ucsb-cs156.github.io/f25/syllabus>
 
 # Online access to the textbooks
 
@@ -109,7 +109,7 @@ Here:
 # Other Homework will be on Canvas/Gradescope
 
 * You can access Gradescope through Canvas
-* Link to Canvas is on the course website: <https://ucsb-cs156.github.io/s25>
+* Link to Canvas is on the course website: <https://ucsb-cs156.github.io/f25>
 * There may be reading assignments that go along with each homework assignment.
 
 # What will we learn in this class:
@@ -126,7 +126,7 @@ Legacy Applications: They existed before this course started, and will continue 
 
 # Logistics
 
-* Check website for software to install <https://ucsb-cs156.github.io/s25/info/software.html>
+* Check website for software to install <https://ucsb-cs156.github.io/f25/info/software.html>
 
 # Now we meet our first team
 
@@ -135,7 +135,7 @@ We'll now separate into teams, (and/or go into breakout rooms if online) and you
 Teams are by discussion section; there are three discussion sections, and 4 teams per discussion section.
 
 Team assignments, and the mapping from teams to staff (LAs/TAs) is listed here:
-* <https://bit.ly/cs156-s25-teams>
+* <https://bit.ly/cs156-f25-teams>
 
 Note that while the instructor, or a TA or LA might drop in on your Breakout Room, they are not the discussion leader.  You need to self-organize to run your own  breakout room discussion.
 

@@ -5,7 +5,7 @@ description: "IRB Briefing, Survey, "
 ready: true
 layout: default
 parent: lectures
-informed_consent: https://ucsb-cs156.github.io/s25/info/informed_consent.html
+informed_consent: https://ucsb-cs156.github.io/f25/info/informed_consent.html
 ---
 
 # {{page.title}} - {{page.description}}
