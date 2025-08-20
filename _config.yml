@@ -5,6 +5,11 @@ incremental: true
 
 jdk_distribution: "21.0.6-librca"
 
+exclude: 
+  - lab_SAVE
+  - lectures_SAVE
+  - hwk_SAVE
+
 course: "CMPSC 156"
 title: "CS156 f25"
 quarter: "Fall 2025"
