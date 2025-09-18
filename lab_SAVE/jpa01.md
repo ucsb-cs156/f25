@@ -7,7 +7,7 @@ title: jpa01
 nav_order: 100
 ready: false
 layout: default
-parent: lab
+parent: lab_SAVE
 course_org: https://github.com/ucsb-cs156-f25
 course_org_name: ucsb-cs156-f25
 starter_repo: https://github.com/ucsb-cs156-f25/STARTER-jpa01
