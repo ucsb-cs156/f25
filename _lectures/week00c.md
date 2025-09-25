@@ -7,7 +7,7 @@ layout: default
 parent: lectures
 slides: https://docs.google.com/presentation/d/1mMBxU94WcBvLL7crfa7MpADXQkMEILJ6H4NkjfvadA4/edit?usp=sharing
 slack_help_lecture_discussion: https://ucsb-cs156-f25.slack.com/archives/tbd
-link_to_self_intro_activity: tbd
+link_to_self_intro_activity: [P01](https://ucsb.instructure.com/courses/27687/assignments/381943)
 link_to_team_first_day_activity: tbd
 ---
 
