@@ -182,7 +182,7 @@ What are you most interested to learn in this course?
 
 Record as much of your conversation as you are able in the Slack channel
 
-# For Wednesday
+# For next Wednesday
 
 Complete P00, P01, P02 (all can be found on Canvas, and are straightforward; should take less than 30 minutes combined. ).
 
