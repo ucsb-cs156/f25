@@ -12,7 +12,7 @@ Instructions on installing these follow below.
 * The latest version of git
 * SDKMAN (tool for installing and switching between Java versions)
 * Java 21 (`bellsoft-liberica-jdk` distribution recommended).
-* Maven 3.9.9
+* Maven 3.9.11
 
 When you are finished, check <https://ucsb-cs156.github.io/f25/info/install_checklist.html> to double check that you completed every step successfully.
 
@@ -139,7 +139,7 @@ The following programs will be installed in the above guide:
 
 * The latest version of git
 * Java 21
-* Maven 3.9.9
+* Maven 3.9.11
 * nvm (latest stable version)
 * Current LTS version of Node installed via `nvm install --lts; nvm use --lts` (currently node v20.17.0, and npm v10.8.2)
 
@@ -250,15 +250,15 @@ If you have questions about this section, please ask on the [[`#help-macos`]({{s
    For example, you do NOT want to see this:
    ```
    pconrad@Phillips-MacBook-Air ~ % mvn --version
-   Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
-   Maven home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+   Apache Maven 3.9.11 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+   Maven home: /opt/homebrew/Cellar/maven/3.9.11/libexec
    Java version: 23, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk/23/libexec/openjdk.jdk/Contents/Home
    Default locale: en_US, platform encoding: UTF-8
    OS name: "mac os x", version: "14.4.1", arch: "aarch64", family: "mac"
    pconrad@Phillips-MacBook-Air ~ % 
    ```
 
-   That shows the correct Maven version (3.9.9) but the wrong Java version (23).
+   That shows the correct Maven version (3.9.11) but the wrong Java version (23).
 
    If you are not seeing the correct Java version after typing <code>sdk use java {{site.jdk_distribution}}</code> followed by `mvn --version`, then ask for help on the [`#help-macos`]({{site.help_macos_link}}) channel on the course slack.
    
