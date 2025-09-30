@@ -3,11 +3,12 @@ title: Install Checklist
 description: "A checklist to be sure your installation is complete"
 layout: default
 parent: info
-nvm_version: v0.40.1
+nvm_version: v0.40.3
+maven_version: 3.9.11
+node_lts: v22.22.0
+npm_lts: v10.9.3
+zoom_version: 6.3.11
 java_version: 21
-maven_version: 3.9.9
-node_lts: v20.17.0
-npm_lts: v10.8.2
 ---
 
 # {{page.title}} 
