@@ -19,10 +19,10 @@ baseurl: "/f25"
 slack_help_lecture_discussion: TBD
 sample_team: f25-04
 
-ta_list_full: Sangita Kunapuli, Amey Walimbe
-la_list_full: Daniel Jensen, Benjamin Conte, Samuel Zhu, Divyani Punj
+ta_list_full: Sanjay Chandrasekaran, Kate Larrick
+la_list_full: Daniel Jensen, Derek Kirschbaum, Samuel Zhu, Divyani Punj
 discussion_section_day: Wednesday
-discussion_section_times: 6pm, 7pm
+discussion_section_times: 4pm, 6pm
 
 help_windows_link: https://ucsb-cs156-f25.slack.com/archives/C09A5LE7T89
 help_macos_link: https://ucsb-cs156-f25.slack.com/archives/C09A5LGBP25
