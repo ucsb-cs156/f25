@@ -1,14 +1,13 @@
 ---
 description: Getting Started
-assigned: 2024-10-02
-due: 2024-10-07 23:59
+assigned: 2025-09-30
+due: 2024-10-06 23:59
 layout: default
 title: jpa00
 nav_order: 100
 ready: false
 layout: default
 parent: lab
-signup_app: https://ucsb-cs-github-linker.herokuapp.com/
 slack: https://ucsb-cs156-f25.slack.com
 course_org: https://github.com/ucsb-cs156-f25
 course_org_name: ucsb-cs156-f25
