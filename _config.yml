@@ -24,9 +24,9 @@ la_list_full: Daniel Jensen, Benjamin Conte, Samuel Zhu, Divyani Punj
 discussion_section_day: Wednesday
 discussion_section_times: 6pm, 7pm
 
-help_windows_link: https://ucsb-cs156-f25.slack.com/archives/C08L76J189Y
-help_macos_link: https://ucsb-cs156-f25.slack.com/archives/C08LFHL9P5F
-help_lecture_discussion: https://ucsb-cs156-f25.slack.com/archives/C08KX29APQ8
+help_windows_link: https://ucsb-cs156-f25.slack.com/archives/C09A5LE7T89
+help_macos_link: https://ucsb-cs156-f25.slack.com/archives/C09A5LGBP25
+help_lecture_discussion: https://ucsb-cs156-f25.slack.com/archives/C099W8E5W5S
 
 mermaid:
   # Version of mermaid library
