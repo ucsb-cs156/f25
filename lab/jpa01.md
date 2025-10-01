@@ -149,7 +149,7 @@ If you just did a deep dive into the article [Web Pages vs. Web Apps](https://uc
 
 You should already have a repo under the course organization
 <tt>{{page.github_org}}</tt> called
-<tt>{{page.num}}-<i>githubid</i></tt>
+<tt><i>jpa01</i>-<i>githubid</i></tt>
 created for you by the staff, where <tt><i>github</i></tt>
 is your github id.
 
