@@ -95,6 +95,8 @@ When you are finished, check <https://ucsb-cs156.github.io/f25/info/install_chec
    ```
    curl -s "https://get.sdkman.io" | bash
    ```
+
+   Be sure to also run `source "$HOME/.sdkman/bin/sdkman-init.sh"` to add the sdk executable to the `PATH` environment variable.
    
 6. Use `SDKMAN` to install Java {{page.java_version}}
 
