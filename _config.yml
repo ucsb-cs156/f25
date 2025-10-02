@@ -94,31 +94,31 @@ teams:
     team02_project: 26
     legacy_project: "courses"
     legacy_kanban: 47 
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08LSEA0140
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GHFZBLF7
   - team: f25-02
     dokku: "02"
     team02_project: 27
     legacy_project: "courses"
     legacy_kanban: 48 
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08KXG6D6Q6
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GZ6G8YFK
   - team: f25-03
     dokku: "03"
     team02_project: 27
     legacy_project: "courses"
     legacy_kanban: 49 
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08L6M3TVKM
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GKJMEMM4
   - team: f25-04
     dokku: "04"
     team02_project: 28
     legacy_project: "dining" 
     legacy_kanban: 55
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08L649P62W
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GQV2B4UU
   - team: f25-05
     dokku: "05"
     team02_project: 29
     legacy_project: "courses"
     legacy_kanban: 50 
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08LEHKQQRF
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GKJH9ADC
   - team: f25-06
     dokku: "06"
     team02_project: 30
