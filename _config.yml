@@ -124,64 +124,64 @@ teams:
     team02_project: 30
     legacy_project: "dining" 
     legacy_kanban: 56
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08L6M63YNP
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09HDR951PA
   - team: f25-07
     dokku: "07"
     team02_project: 31
     legacy_project: "frontiers" 
     legacy_kanban: 51
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08L700MMPE
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GQV265V2
   - team: f25-08
     dokku: "08"
     team02_project: 32
     legacy_project: "dining" 
     legacy_kanban: 57
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08KP90NACX
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GHFZ0WTX
   - team: f25-09
     dokku: "09"
     team02_project: 33
     legacy_project: "frontiers" 
     legacy_kanban: 52
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08L64EH1NE
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GKJMPFEJ
   - team: f25-10
     dokku: "10"
     team02_project: 34
     legacy_project: "dining" 
     legacy_kanban: 58 
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08L6M9TEBV
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09G5988CTH
   - team: f25-11
     dokku: "11"
     team02_project: 35
     legacy_project: "frontiers" 
     legacy_kanban: 53 
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08L26YQDQV
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GHFZ372R
   - team: f25-12
     dokku: "12"
     team02_project: 36
     legacy_project: "frontiers" 
     legacy_kanban: 54
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08L6MAKF9R
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GQV2S6BW
   - team: f25-13
     dokku: "13"
     team02_project: 37
     legacy_project: "rec" 
     legacy_kanban: 59 
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08KP94MNJK
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GHFYSZ2R
   - team: f25-14
     dokku: "14"
     team02_project: 40
     legacy_project: "rec" 
     legacy_kanban: 60 
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08L271J4UD
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GKJN9WQ6
   - team: f25-15
     dokku: "15"
     team02_project: 41
     legacy_project: "rec" 
     legacy_kanban: 61 
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08KP95T8BH
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09HDR9E75E
   - team: f25-16
     dokku: "16"
     team02_project: 42
     legacy_project: "rec" 
     legacy_kanban: 62 
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08LEHV0PFT
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GQV2UVGC
