@@ -25,29 +25,6 @@ staff_emails: "djensen@ucsb.edu,sanjaychandrasekaran@ucsb.edu,katelarrick@ucsb.e
   pre {white-space: pre}
 </style>
 
-
-# NOTE: Please don't start this lab yet
-# NOTE: We are still testing the starter code and autograder
-# NOTE: Please don't start this lab yet
-# NOTE: We are still testing the starter code and autograder
-# NOTE: Please don't start this lab yet
-# NOTE: We are still testing the starter code and autograder
-# NOTE: Please don't start this lab yet
-# NOTE: We are still testing the starter code and autograder
-# NOTE: Please don't start this lab yet
-# NOTE: We are still testing the starter code and autograder
-# NOTE: Please don't start this lab yet
-# NOTE: We are still testing the starter code and autograder
-# NOTE: Please don't start this lab yet
-# NOTE: We are still testing the starter code and autograder
-# NOTE: Please don't start this lab yet
-# NOTE: We are still testing the starter code and autograder
-# NOTE: Please don't start this lab yet
-# NOTE: We are still testing the starter code and autograder
-# NOTE: Please don't start this lab yet
-# NOTE: We are still testing the starter code and autograder
-
-
 {% include drop_down_style.html %}
 
 For due date: see jpa03 on Gradescope.
