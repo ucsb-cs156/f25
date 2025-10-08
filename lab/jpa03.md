@@ -93,11 +93,37 @@ Here is an example of the app you'll be implementing, up and running. Try loggin
 
 * <{{page.example_running_app}}>
 
+You should see the following home page when you load this app:
 
-So, let's get started.
+<img width="593" height="213" alt="image" src="https://github.com/user-attachments/assets/d4785532-94ef-4e3b-a418-4d8d7e5c132d" />
 
+Try clicking the `login` button.  You should be presented with the opportunity to login using your UCSB Google credentials.  After that, you should see something like this:
 
-TODO: Insert some more details here about what to expect from the running app.
+<img width="734" height="251" alt="image" src="https://github.com/user-attachments/assets/f1b89dad-97b3-46eb-a9e3-77623d16843f" />
+
+The three remaining links allow you to:
+* logout
+* access the Swagger page, which is where we can see documentation for all of our endpoints (we'll talk more about this over the course of the lab)
+* access the H2 Database console, but only on localhost—not on dokku.  This link will give an error when running on dokku, and that is normal behavior.
+
+As we'll see later in this lab, the Swagger links allow you to do so called *CRUD* operations on a database table:
+* Create (via a POST web request)
+* Read (via a GET web request)
+* Update (via a PUT web request)
+* Destroy (via a DELETE web request)
+
+The two database tables that can be maintained by the backend of this app are:
+
+<table>
+<thead><tr><th>UCSB Dates</th><th>ToDos</th></tr></thead>
+<tbody><tr><td><img width="442" height="323" alt="image" src="https://github.com/user-attachments/assets/a3fb4bbd-bbd8-45ee-a5eb-233102f45593" />
+</td><td><img width="771" height="536" alt="image" src="https://github.com/user-attachments/assets/ee3769ea-2113-4de3-b381-f511ba62ca98" />
+</td></tr></tbody>
+</table>
+
+In this lab, you will be mostly concentrating on how to *configure* an app that has these capabilities on dokku.  There is a later assignment (team01) where we'll be focusing on how to actually add new endpoints into the app for additional database tables.
+
+So, let's get started!
 
 ## Step 1: Create your repo
 
