@@ -353,13 +353,9 @@ not the example value shown here).
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/1119017/235759017-e48fdcf6-abb7-40e7-8ae8-71173113d4cd.png">
 
 
-## Step 7: Submit on Canvas
+## Step 7: Submit on Gradescope
 
-Before submitting on Canvas, check all of the items in the grading rubric below; make sure you are in compliance with all of them.
-
-If so, then you are ready to submit on Canvas.
-
-Remember to submit a link to *your repo*, not a link to your running app.
+Submit on Gradescope to check that you have completed all of the necessary steps.
 
 ## Grading Rubric:
 
