@@ -92,9 +92,12 @@ Reviewing, from jpa00 and jpa01:
 * You'll then find a place on your laptop to clone it (we suggest under the directory `~/cs156`, but that's up to you).
   <pre>
   cd ~/cs156 
-  git clone {{page.title}}-<i>yourGithubId</i>
+  git clone <i>url</i>
   cd {{page.title}}-<i>yourGithubId</i>
   </pre>
+
+The `url` should be something like
+   <tt>git@github.com:{{page.course_org_name}}/{{page.title}}-cgaucho.git</tt> but with your GitHub id in place of <tt>cgaucho</tt>.
 
 You will then have a local repo on your laptop that is a *clone* of the repo on Github.   
 
@@ -114,7 +117,7 @@ origin	git@github.com:{{page.course_org_name}}/{{page.title}}-<i>yourGithubId</i
 % 
 </pre>
 
-What this output signififies is that the name `origin` is the name of a *remote* repo that you can fetch branch information from, pull commits from, and push commits to.
+What this output signifies is that the name `origin` is the name of a *remote* repo that you can fetch branch information from, pull commits from, and push commits to.
 
 * The `git` system works with both *branches*, which are multiple copies of code in the same repo, and *remotes*, which are the urls of other repos containing branches.
 * In this assignment, we'll only work with a single branch in each repo, the `main` branch.
@@ -571,9 +574,9 @@ It would be very easy to get through this lab super quickly, just doing the bare
 
 BUT: I encourage you to instead, take some time to really look at the code and try to understand it. That will pay off in later assignments, where there will *not* be this level of handholding.
 
-### Part 2.1: Edit `getName_returns_correct_name` in `DeveloperTests.java`
+### Part 2.1: Edit `getName_returns_correct_name` in `DeveloperTest.java`
 
-In the file `DeveloperTests.java`, locate the test `getName_returns_correct_name`.  It looks like this:
+In the file `DeveloperTest.java`, locate the test `getName_returns_correct_name`.  It looks like this:
 
 ```java
     @Test
