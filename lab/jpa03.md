@@ -398,7 +398,7 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
 
 * Create {{page.title}} repos 
 * Set up starter code in the course organization, and update links
-* Create a Canvas assignment for {{page.title}}
+* Create a Gradescope assignment for {{page.title}}
 * Make sure the app <{{page.example_running_app}}> is up and running, and is sync'd with the starter code:
 
   i.e, on dokku-00 for example, do:
