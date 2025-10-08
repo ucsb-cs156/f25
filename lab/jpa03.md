@@ -344,12 +344,17 @@ Where:
 You should test the following features:
 
 * You should see be able to login with your UCSB Google account
-* Navigate to the swagger page and find the /admin/users api and click `Try it Out`. Then click `Execute`, your output should look as follows:
+* Navigate to the swagger page
+* Find the `GET /admin/users` api endpoint
+* For that endpoint, click `Try it Out`, then click `Execute`.
+
+Your output should look similar to that shown here (the line breaks and details may be different, but the 
+puncutation and collection of fields should be the same).
 
 ```
-
-[{"id":1,"email":"cgaucho@ucsb.edu","googleSub":"10123023023","pictureUrl":"url","fullName":"Chris Gaucho","givenName":"Chris","familyName":"Gaucho","emailVerified":true,"locale":null,"hostedDomain":"ucsb.edu","admin":true}] 
-
+[{"id":1,"email":"cgaucho@ucsb.edu","googleSub":"10123023023","pictureUrl":"url",
+"fullName":"Chris Gaucho","givenName":"Chris","familyName":"Gaucho","emailVerified":true,
+"locale":null,"hostedDomain":"ucsb.edu","admin":true}] 
 ```
 
 
