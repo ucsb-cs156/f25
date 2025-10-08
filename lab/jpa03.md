@@ -385,9 +385,19 @@ not the example value shown here).
 
 Submit on Gradescope to check that you have completed all of the necessary steps.
 
-## Grading Rubric:
+Gradescope will check for the following:
 
-See Gradescope for the grading rubric.
+* (10 pts) Deployment link found in README.md 
+* (20 pts) Student deployment link is reachable with a 200 code 
+* (20 pts) Database is set up correctly
+* (20 pts) OAuth2 credentials are set up correctly (you need to log in at least once to check this on your dokku deployment.)
+* (10 pts) Repository homepage URL is correct 
+* (10 pts) GitHub Actions workflow passes on main 
+* (10 pts) GitHub Pages is set up correctly 
+
+**But in addition:** be sure you check each of the following.  Even if you get a perfect score on Gradescope, we may deduct points for any of the following:
+
+* `ADMIN_EMAILS` should be configured correctly on Dokku (up to -10 points deduction if it isn't).
 
 ## Instructor Resources
 
