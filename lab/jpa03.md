@@ -316,9 +316,13 @@ Once all of this is true:
 * configured so that it can be run on `localhost` with `mvn spring-boot:run`
 * when running on localhost, you can login with your UCSB Google Credentials
 * the repo shows a green check, and not a red X on the main Github page (i.e. the Github Actions are running successfully)
-* the Github pages site comes up, and your main repo page is configured with a link to it, as shown below
+* the Github pages site comes up, and your main repo page is configured with a link to it, as shown below.
 
 Then you ae ready to try to get your app up and running on Dokku.
+
+Here's what the upper right hand corner of your main repo page should look like after configuring Github Pages:
+
+<img width="326" height="99" alt="image" src="https://github.com/user-attachments/assets/216af037-912f-473d-8c51-4dc16d4488ba" />
 
 The steps to get your app up and running on Dokku are documented here:
 
