@@ -267,7 +267,18 @@ As shown in the [`README.md`]({{page.starter_repo}}/blob/main/README.md), these 
 2. [Getting Started on localhost]({{page.starter_repo}}/tree/main#getting-started-on-localhost), which includes:
    - Setting up Google OAuth credentials
    - Entering those credential in the `.env` file
-   - Learning how to run the backend and frontend in separate windows
+
+Once the app is configured, you should be able to run it with:
+
+```
+mvn spring-boot:run
+```
+
+This command should be run from the command line, after doing `cd` commands to get inside the directory where your <tt>jpa03-<i>yourGithubId</i></tt>repo is cloned.
+
+You should then be able to open the website on <http://localhost:8080> and succesfully login, and logout.
+
+Make sure that works before proceeding to the next step.
 
 ### The `.env` file  should *not* be committed to GitHub
 
@@ -300,6 +311,14 @@ You are encourged to take a look at each of these.   We'll be using them extensi
 Note that when we run our application on Dokku, we typically do *not* use H2, but a different database called Postgres, so we don't use the H2-Console there; it's typically only for when we are running on localhost.   We will, however, sometimes enable swagger access when running on dokku.  We'll discuss this more at a later step in the lab.
 
 ## Step 4: Configure your app to run on Dokku
+
+Once all of this is true:
+* configured so that it can be run on `localhost` with `mvn spring-boot:run`
+* when running on localhost, you can login with your UCSB Google Credentials
+* the repo shows a green check, and not a red X on the main Github page (i.e. the Github Actions are running successfully)
+* the Github pages site comes up, and your main repo page is configured with a link to it, as shown below
+
+Then you ae ready to try to get your app up and running on Dokku.
 
 The steps to get your app up and running on Dokku are documented here:
 
