@@ -395,10 +395,12 @@ Gradescope will check for the following:
 * (10 pts) GitHub Actions workflow passes on main 
 * (10 pts) GitHub Pages is set up correctly 
 
-**But in addition:** be sure you check each of the following.  Even if you get a perfect score on Gradescope, we may deduct points for any of the following:
+**But in addition:** be sure you check each of the following.  Even if you get a perfect score on Gradescope, we may deduct points for any of the following.  We'll check these things outside of Gradescope (though we hope to be able to check them with Gradescope in the future!)
 
 * `ADMIN_EMAILS` should be configured correctly on Dokku (up to -10 points deduction if it isn't).
-
+* There should *not* be a `.env` file commited to your repo (up to -10 points deduction if you did).
+* You should *not* have deleted the `.env.SAMPLE` file from your repo (up to -10 points deduction if you didn't.)
+  
 ## Instructor Resources
 
 <details markdown="1">
