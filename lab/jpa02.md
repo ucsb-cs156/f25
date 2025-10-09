@@ -746,6 +746,8 @@ And, when you run `mvn spring-boot:run`, you should now see correct information 
 
 Do another commit.  Choose a reasonable commit message for the change that you made, and push that change to the `main` branch on the `origin` repo (the one on Github).
 
+**NOTE: The autograder will check your team members names on your Dokku installation. If the autograder detects that the names are incorrect, you will need to update them and redeploy on Dokku.**
+
 ### Part 2.4: Redeploy to dokku
 
 If the website now looks correct when you type `mvn spring-boot:run` and look at it on `localhost:8080`, it's time to update dokku:
