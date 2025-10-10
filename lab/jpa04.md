@@ -12,7 +12,7 @@ layout: default
 parent: lab
 course_org: https://github.com/ucsb-cs156-f25
 course_org_name: ucsb-cs156-f25
-starter_repo: https://github.com/ucsb-cs156-f25/STARTER-jpa05
+starter_repo: https://github.com/ucsb-cs156-f25/STARTER-jpa04
 ---
 
 <style>
