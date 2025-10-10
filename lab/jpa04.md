@@ -243,7 +243,7 @@ Just like in [{{page.prev_lab}}](/f25/labs/{{page.prev_lab}}.html), change the f
 Now, commit this change:
 
 ```
-git add src/main/java/Hello.java
+git add src/main/java/jpa00/Hello.java
 git commit -m "correct the output"
 git push origin main
 ```
