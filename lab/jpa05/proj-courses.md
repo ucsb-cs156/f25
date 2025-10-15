@@ -33,7 +33,7 @@ Then, the app should be available on <http://localhost:8080>
 ## Step 3: Configure your app to run on Dokku
 Next, you need to create a personal dokku deployment so that you can test future PRs during the legacy code project. 
 
-Name the app <tt>courses-dev-<i>yourGithubUsername</i></tt> and follow the steps here: 
+Name the app `courses-dev-yourGithubUsername` and follow the steps here: 
 * <https://ucsb-cs156.github.io/topics/dokku/deploying_an_app.html>
 
 You also need to configure MONGODB_URI in the .env file, following the instructions here: 
