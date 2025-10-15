@@ -92,7 +92,8 @@ The starter repo you should clone is one of these:
 
 NOTE: You should use the `https` link rather than the `ssh` link, since you don't have push access to these repos.
 
-Clone that repo somewhere and cd into it.
+Clone that repo somewhere and cd into it.  Note that for this assignment, you won't actually be making any changes to this repo; you'll just
+be running the code that it contains, both on localhost, and on dokku.
 
 ## Step 2: Configure your app for localhost as documented in the README.md
 
