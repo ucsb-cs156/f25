@@ -21,7 +21,7 @@ Assuming that you have set up a project in the Google Developer Console and set 
 
 **NOTE:** The name of your Dokku app for `jpa05` will be `dining-dev-yourGithubUsername`, so your Dokku redirect URI will be <tt>https://<b><i>dining-dev-yourGithubUsername</i></b>.dokku-<b><i>xx</i></b>.cs.ucsb.edu/login/oauth2/code/google</tt>, where <i>xx</i> is your team number.
 
-Then, complete Step 1 in [oauth.md](https://github.com/ucsb-cs156/proj-courses/blob/main/docs/oauth.md) (set up `.env` values for `localhost`, including `ADMIN_EMAILS` and `UCSB_API_KEY`)
+Then, complete Step 1 in [oauth.md](https://github.com/ucsb-cs156/proj-dining/blob/main/docs/oauth.md) (set up `.env` values for `localhost`, including `ADMIN_EMAILS` and `UCSB_API_KEY`)
 
 ### 2c: Launch your application
 
