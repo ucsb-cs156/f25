@@ -60,7 +60,7 @@ Your dev deployment should be named as follows:
 Where:
 * <tt><i>project</i></tt> is the project you are assigned to: courses, dining, frontiers, or happycows
 * <tt><i>username</i></tt> is your Github username
-* <tt><i>team</i></tt> is your two digit team number (`01`,`02`,...`16)
+* <tt><i>team</i></tt> is your two digit team number (`01`,`02`,...`16`)
 
 You should end up with a private instance of one of these four running applications (which you can access to check your work):
 * <https://courses.dokku-00.cs.ucsb.edu>
