@@ -67,9 +67,10 @@ Note that you will have read only access to these repos, but at a later stage, y
 
 Your dev deployment should be named as follows:
 
-* <tt>https://courses-dev-<i>username</i>.dokku-<i>team</i>.cs.ucsb.edu</tt>
+* <tt>https://<i>project</i>-dev-<i>username</i>.dokku-<i>team</i>.cs.ucsb.edu</tt>
 
 Where:
+* <tt><i>project</i></tt> is the project you are assigned to: courses, dining, frontiers, or happycows
 * <tt><i>username</i></tt> is your Github username
 * <tt><i>team</i></tt> is your two digit team number (`01`,`02`,...`16)
 
