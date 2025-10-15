@@ -20,8 +20,10 @@ Assuming that you have set up a project in the Google Developer Console and set 
 
 So your first Dokku redirect URI will be:
 * <tt>http://localhost:8080/login/oauth2/code/google</tt>
+
 And your second Dokku redirect URI will be:
 * <tt>https://<b><i>happycows-dev-yourGithubUsername</i></b>.dokku-<b><i>xx</i></b>.cs.ucsb.edu/login/oauth2/code/google</tt>
+
 where <i>xx</i> is your team number.
 
 Then, complete Step 1 in [oauth.md](https://github.com/ucsb-cs156/proj-happycows/blob/main/docs/oauth.md) (set up `.env` values for `localhost`, including `ADMIN_EMAILS`)
