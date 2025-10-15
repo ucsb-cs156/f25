@@ -50,6 +50,8 @@ Now, you need to follow the additional steps in this file to setup Github creden
 * In the second window:
   ```
   cd frontend
+  nvm install v22.18.0
+  nvm use v22.18.0
   npm install  # only on first run or when dependencies change
   npm start
   ```
