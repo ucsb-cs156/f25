@@ -111,12 +111,14 @@ Now, you need to configure your app for localhost as documented in the README.md
 
 This step may differ in subtle ways across the four repos, so we have created separate pages for each of the four repos with details.  Please follow the details there for this step:
 
+
 | Teams | Repo |
 |-|-|
 | `01,02,03,04` | <https://ucsb-cs156.github.io/f25/lab/jpa05/proj-courses.html> |
-| `05,06,07,08` | <https://github.com/ucsb-cs156/f25/lab/jpa05/proj-dining.html> |
-| `09,10,11,12` | <https://github.com/ucsb-cs156/f25/lab/jpa05/proj-frontiers.html> |
-| `13,14,15,16` | <https://github.com/ucsb-cs156/f25/lab/jpa05/proj-happycows.html> |
+| `05,06,07,08` | <https://ucsb-cs156.github.io/f25/lab/jpa05/proj-dining.html> |
+| `09,10,11,12` | <https://ucsb-cs156.github.io/f25/lab/jpa05/proj-frontiers.html> |
+| `13,14,15,16` | <https://ucsb-cs156.github.io/f25/lab/jpa05/proj-happycows.html> |
+
 
 
 ## Step 3: Configure your app to run on Dokku
@@ -128,9 +130,9 @@ This step may differ in subtle ways across the four repos, so we have created se
 | Teams | Repo |
 |-|-|
 | `01,02,03,04` | <https://ucsb-cs156.github.io/f25/lab/jpa05/proj-courses.html> |
-| `05,06,07,08` | <https://github.com/ucsb-cs156/f25/lab/jpa05/proj-dining.html> |
-| `09,10,11,12` | <https://github.com/ucsb-cs156/f25/lab/jpa05/proj-frontiers.html> |
-| `13,14,15,16` | <https://github.com/ucsb-cs156/f25/lab/jpa05/proj-happycows.html> |
+| `05,06,07,08` | <https://ucsb-cs156.github.io/f25/lab/jpa05/proj-dining.html> |
+| `09,10,11,12` | <https://ucsb-cs156.github.io/f25/lab/jpa05/proj-frontiers.html> |
+| `13,14,15,16` | <https://ucsb-cs156.github.io/f25/lab/jpa05/proj-happycows.html> |
 
 
 ### What if it doesn't work?
