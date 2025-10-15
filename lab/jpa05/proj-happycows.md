@@ -18,7 +18,9 @@ Assuming that you have set up a project in the Google Developer Console and set 
 **NOTE:** The name of your Dokku app for `jpa05` will be
 * `happycows-dev-yourGithubUsername`
 
-So your Dokku redirect URI will be:
+So your first Dokku redirect URI will be:
+* <tt>http://localhost:8080/login/oauth2/code/google</tt>
+And your second Dokku redirect URI will be:
 * <tt>https://<b><i>happycows-dev-yourGithubUsername</i></b>.dokku-<b><i>xx</i></b>.cs.ucsb.edu/login/oauth2/code/google</tt>
 where <i>xx</i> is your team number.
 
