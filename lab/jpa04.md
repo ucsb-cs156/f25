@@ -1,7 +1,7 @@
 ---
 description: "Enabling Verified Commits"
-assigned: 2025-10-09
-due: 2025-10-15 23:59
+assigned: 2025-10-14
+due: 2025-10-17 23:59
 layout: default
 title: jpa04
 prev_lab: jpa00
