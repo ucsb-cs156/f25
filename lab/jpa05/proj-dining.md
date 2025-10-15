@@ -13,13 +13,15 @@ layout: default
 
 ### 2a: Obtain UCSB API key value
 
-First, you will need a value for `UCSB_API_KEY`. You can obtain a value by following these instructions: [UCSB API Key Instructions](https://ucsb-cs156.github.io/topics/apis/apis_ucsb_developer_api.html)   This value goes in your `.env` file. 
+First, you will need a value for `UCSB_API_KEY`. You can obtain a value by following these instructions: [UCSB API Key Instructions](https://ucsb-cs156.github.io/topics/apis/apis_ucsb_developer_api.html)
 
 ### 2b: OAuth Setup
 
-Assuming that you have set up a project in the Google Developer Console and set up an OAuth Consent Screen for your project (which should have been done in `jpa03`), you will just need to create a set of OAuth credentials (`GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` values): [Oauth Google Setup](https://ucsb-cs156.github.io/topics/oauth/oauth_google_setup.html)
+Assuming that you have set up a project in the Google Developer Console and set up an OAuth Consent Screen for your project (which should have been done in `jpa03`), you will just need to create a set of OAuth credentials (`GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` values) using Steps 1-4 of these instructions: [Oauth Google Setup](https://ucsb-cs156.github.io/topics/oauth/oauth_google_setup.html) 
 
-Then, complete Step 1 in [oauth.md](https://github.com/ucsb-cs156/proj-courses/blob/main/docs/oauth.md) (set up `.env` values for `localhost`, including `ADMIN_EMAILS`)
+**NOTE:** The name of your Dokku app for `jpa05` will be `dining-dev-yourGithubUsername`, so your Dokku redirect URI will be <tt>https://<b><i>dining-dev-yourGithubUsername</i></b>.dokku-<b><i>xx</i></b>.cs.ucsb.edu/login/oauth2/code/google</tt>
+
+Then, complete Step 1 in [oauth.md](https://github.com/ucsb-cs156/proj-courses/blob/main/docs/oauth.md) (set up `.env` values for `localhost`, including `ADMIN_EMAILS` and `UCSB_API_KEY`)
 
 ### 2c: Launch your application
 
@@ -40,19 +42,15 @@ Then, the app should be available on <http://localhost:8080>. Test that Oauth wa
 
 ## Step 3: Configure your app to run on Dokku
 
-### 3a: Obtain UCSB API key value
-
-First, you will need a value for `UCSB_API_KEY`. You can obtain a value by following these instructions: [UCSB API Key Instructions](https://ucsb-cs156.github.io/topics/apis/apis_ucsb_developer_api.html)
-
-### 3b: Creating your Dokku app
+### 3a: Creating and configuring your Dokku app
 
 You will need to create a personal dokku deployment so that you can test future PRs during the legacy code project. This is a quick guide to setting up a `proj-dining` dokku instance that assumes you are already familiar with the basic operation of dokku, and just need a "cheat sheet" to get up and running quickly. 
 
-For `jpa05`, your appname will be `dining-dev-yourGithubUsername`. 
+First, log in to your dokku machine--ssh into csil, then dokku ([Login instructions](https://ucsb-cs156.github.io/topics/dokku/logging_in.html)). 
 
 The lines in the instructions where you need to modify something are marked with the comment: `# modify this`
 
-* The other lines you can copy/paste as is, except for changing `dining-dev-yourGithubUsername` to whatever your app is named
+* The other lines you can copy/paste as is, except for changing `dining-dev-yourGithubUsername` to your app name
 
 ```
 # Create app
@@ -60,7 +58,7 @@ dokku apps:create dining-dev-yourGithubUsername
 
 # Create and link postgres database
 dokku postgres:create dining-dev-yourGithubUsername-db
-dokku postgres:link dining-dev-yourGithubUsername-db dining --no-restart
+dokku postgres:link dining-dev-yourGithubUsername-db dining-dev-yourGithubUsername --no-restart
 
 # Modify dokku settings
 dokku git:set dining-dev-yourGithubUsername keep-git-dir true
@@ -71,7 +69,7 @@ dokku config:set --no-restart dining-dev-yourGithubUsername GOOGLE_CLIENT_ID=get
 dokku config:set --no-restart dining-dev-yourGithubUsername GOOGLE_CLIENT_SECRET=get-value-from-google-developer-console # modify this
 dokku config:set --no-restart dining-dev-yourGithubUsername UCSB_API_KEY=get-from-developer.ucsb.edu  # modify this
 
-# Set SOURCE_REPO to your repo (modify the url)
+# Set SOURCE_REPO to your team's project repo (modify the url)
 # This is for the link in the footer, and for the link to currently deployed branch in /api/systemInfo
 dokku config:set --no-restart dining-dev-yourGithubUsername SOURCE_REPO=YOUR-REPO-URL 
 
@@ -85,14 +83,18 @@ dokku ps:rebuild dining-dev-yourGithubUsername
 # Enable https
 dokku letsencrypt:set dining-dev-yourGithubUsername email yourEmail@ucsb.edu # modify email
 dokku letsencrypt:enable dining-dev-yourGithubUsername
+
+# rebuild again
+dokku ps:rebuild dining-dev-yourGithubUsername
 ```
 
 Your app should now be running at <tt>https://<i>appname</i>.dokku-<i>xx</i>.cs.ucsb.edu</tt>. Make sure that you are able to log in.  
 
 If you have any issues with configuring your Dokku app, see the more detailed instructions: [Deploying a Dokku App](https://ucsb-cs156.github.io/topics/dokku/deploying_an_app.html)
+
 A full documentation: [Dokku Setup](https://ucsb-cs156.github.io/topics/dokku/)
 
-### 3c: 
+### 3b: Setting up Github Pages
 
 You will also need to set up Github Pages using these instructions: [Github Pages Setup](https://github.com/ucsb-cs156/proj-courses/blob/main/docs/github-pages.md)
 
