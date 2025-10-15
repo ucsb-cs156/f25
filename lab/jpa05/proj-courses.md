@@ -34,15 +34,12 @@ Then, the app should be available on <http://localhost:8080>
 Next, you need to create a personal dokku deployment so that you can test future PRs during the legacy code project. 
 
 Name the app `courses-dev-yourGithubUsername` and follow the steps here: 
+
 * <https://ucsb-cs156.github.io/topics/dokku/deploying_an_app.html>
 
-You also need to configure MONGODB_URI in the .env file, following the instructions here: 
+You also need to set up MongoDB on Dokku, following the instructions here: 
 
 * <https://github.com/ucsb-cs156/proj-courses/blob/main/docs/mongodb.md>
-
-And lastly, you need to configure the value of CHROMATIC_PROJECT_TOKEN, following the instructions here: 
-* <https://ucsb-cs156.github.io/topics/chromatic/#what-is-chromatic>
-
 
 ## Return to the main instructions
 
