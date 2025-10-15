@@ -3,6 +3,11 @@ title: Software
 description: "What you need to install"
 layout: default
 parent: info
+maven_version: 3.9.11
+node_lts: v22.22.0
+npm_lts: v10.9.3
+zoom_version: 6.3.11
+java_version: 21
 ---
 
 # Software to Install or Configure at start of course (and/or update as needed)
@@ -11,15 +16,15 @@ Instructions on installing these follow below.
 
 * The latest version of git
 * SDKMAN (tool for installing and switching between Java versions)
-* Java 21 (`bellsoft-liberica-jdk` distribution recommended).
-* Maven 3.9.9
+* Java {{page.java_version}} (`bellsoft-liberica-jdk` distribution recommended).
+* Maven {{page.maven_version}}
 
 When you are finished, check <https://ucsb-cs156.github.io/f25/info/install_checklist.html> to double check that you completed every step successfully.
 
 # Software to Install in week 3 (for frontend development)
 
 * nvm (node version manager)
-* Current LTS version of Node available through nvm (currently node v22.14.0, and npm v10.9.2)
+* Current LTS version of Node available through nvm (currently node {{page.node_lts}}, and npm {{page.npm_lts}})
 
 ## Recommmended for Everyone
 
@@ -39,7 +44,7 @@ When you are finished, check <https://ucsb-cs156.github.io/f25/info/install_chec
 
    Be sure that you have the *latest* version of the Zoom client.  Older versions may not have some of the features we'll need for this course.
     
-   If you click on "About Zoom" inside zoom, you want a version that is 6.2.3 or later.
+   If you click on "About Zoom" inside zoom, you want a version that is {{page.zoom_version}} or later.
    
    Download it here: <https://zoom.us/download>
 
@@ -90,10 +95,12 @@ When you are finished, check <https://ucsb-cs156.github.io/f25/info/install_chec
    ```
    curl -s "https://get.sdkman.io" | bash
    ```
-   
-6. Use `SDKMAN` to install Java 21
 
-   Note that even once you decide to install Java 21, there are a bewildering array of differnet distributions to choose from.  Based on the website <https://whichjdk.com/>, the distribution we currently recommend is {{site.jdk-distribution}}, so the command to install this with `SDKMAN` is:
+   Be sure to also run `source "$HOME/.sdkman/bin/sdkman-init.sh"` to add the sdk executable to the `PATH` environment variable.
+   
+6. Use `SDKMAN` to install Java {{page.java_version}}
+
+   Note that even once you decide to install Java {{page.java_version}}, there are a bewildering array of differnet distributions to choose from.  Based on the website <https://whichjdk.com/>, the distribution we currently recommend is {{site.jdk-distribution}}, so the command to install this with `SDKMAN` is:
 
    <p><code>sdk install java {{site.jdk_distribution}}</code></p>
 
@@ -103,7 +110,7 @@ When you are finished, check <https://ucsb-cs156.github.io/f25/info/install_chec
 
    If you just type `sdk use java ` and press the tab key it may autocomplete for you if you have only one version of java installed with `sdk`.
 
-   **You really do need Java 21, specifically**, and NOT Java 8, Java 11, Java 17, or a preview version of 22, 23, or higher.   It won't matter for the `"Hello World"` program in the first week, but when we move on to complex Java applications involving third-party libraries, it will definitely matter.
+   **You really do need Java {{page.java_version}}, specifically**, and NOT Java 8, Java 11, Java 17, or a preview version of 22, 23, or higher.   It won't matter for the `"Hello World"` program in the first week, but when we move on to complex Java applications involving third-party libraries, it will definitely matter.
 
 8. Install Maven on your local system.
 
@@ -138,10 +145,10 @@ Native Ubuntu users (those not using Ubuntu through WSL) can skip the Windows-sp
 The following programs will be installed in the above guide:
 
 * The latest version of git
-* Java 21
-* Maven 3.9.9
+* Java {{page.java_version}}
+* Maven {{page.maven_version}}
 * nvm (latest stable version)
-* Current LTS version of Node installed via `nvm install --lts; nvm use --lts` (currently node v20.17.0, and npm v10.8.2)
+* Current LTS version of Node installed via `nvm install --lts; nvm use --lts` (currently node {{page.node_lts}}, and npm {{page.npm_lts}})
 
 If you're using a Linux distribution that is not Ubuntu (or a similar Debian-based distribution with access to `apt`), the commands listed in the setup guide linked above may not work. The staff cannot provide support on finding equivalent commands for your desired distribution, but community resources such as Stack Overflow can help here.
 
@@ -151,7 +158,7 @@ If you have questions about this section, please ask on the [[`#help-macos`]({{s
 
 1. MacOS version: If you have a MacOS version that is really old (e.g. 12.x), you should consider upgrading to a later version.
 
-   I know for sure that 12.x results in this command later on when you try to install Java 21, so folks on version 12.x will *need* to upgrade.
+   I know for sure that 12.x results in this command later on when you try to install Java {{page.java_version}}, so folks on version 12.x will *need* to upgrade.
    (Folks with later versions *might* be able to delay upgrading.  But if you get a message like this, then you know what you need to do.)
 
    ```
@@ -242,7 +249,7 @@ If you have questions about this section, please ask on the [[`#help-macos`]({{s
    mvn --version
    ```
 
-   Be sure that you have Maven version 3.9 or higher, as Java 21 requires this version to work.
+   Be sure that you have Maven version 3.9 or higher, as Java {{page.java_version}} requires this version to work.
 
    When you type `mvn --version` be sure you are getting the correct version of Java
    (the one you selected with <code>sdk use java {{site.jdk_distribution}}</code>
@@ -250,15 +257,15 @@ If you have questions about this section, please ask on the [[`#help-macos`]({{s
    For example, you do NOT want to see this:
    ```
    pconrad@Phillips-MacBook-Air ~ % mvn --version
-   Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
-   Maven home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+   Apache Maven 3.9.11 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+   Maven home: /opt/homebrew/Cellar/maven/3.9.11/libexec
    Java version: 23, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk/23/libexec/openjdk.jdk/Contents/Home
    Default locale: en_US, platform encoding: UTF-8
    OS name: "mac os x", version: "14.4.1", arch: "aarch64", family: "mac"
    pconrad@Phillips-MacBook-Air ~ % 
    ```
 
-   That shows the correct Maven version (3.9.9) but the wrong Java version (23).
+   That shows the wrong Java version (23).
 
    If you are not seeing the correct Java version after typing <code>sdk use java {{site.jdk_distribution}}</code> followed by `mvn --version`, then ask for help on the [`#help-macos`]({{site.help_macos_link}}) channel on the course slack.
    

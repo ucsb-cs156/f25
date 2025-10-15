@@ -1,20 +1,21 @@
 ---
 description: Getting Started
-assigned: 2024-10-02
-due: 2024-10-07 23:59
+assigned: 2025-09-30
+due: 2024-10-06 23:59
 layout: default
 title: jpa00
 nav_order: 100
 ready: false
 layout: default
 parent: lab
-signup_app: https://ucsb-cs-github-linker.herokuapp.com/
 slack: https://ucsb-cs156-f25.slack.com
 course_org: https://github.com/ucsb-cs156-f25
 course_org_name: ucsb-cs156-f25
 starter_repo: https://github.com/ucsb-cs156-f25/STARTER-jpa00
 course_software: https://ucsb-cs156.github.io/f25/info/software.html
 ---
+
+# {{page.title}} - {{page.description}}
 
 {% include drop_down_style.html %}
 
@@ -297,13 +298,13 @@ Then, type `mvn package`.  You should see a lot of output, but somewhere in that
 That indicates that you have built a `.jar` (or Java Archive) file.  This file is a compressed archive of all of the compiled Java code from your program.  You can run it with this command:
 
 ```
-java -cp target/hello-1.0.0.jar Hello
+java -cp target/hello-1.0.0.jar jpa00/Hello
 ```
 
 You should see output like this:
 
 ```
-% java -cp target/hello-1.0.0.jar Hello
+% java -cp target/hello-1.0.0.jar jpa00/Hello
 This is the wrong output!
 %
 ```
@@ -432,7 +433,7 @@ Test this locally by compiling and running the code:
 ```
 mvn compile
 mvn package
-java -cp target/hello-1.0.0.jar Hello
+java -cp target/hello-1.0.0.jar jpa00.Hello
 ```
 
 You should see the correct output, `Hello, World!`.

@@ -3,7 +3,7 @@ description: "Enabling Verified Commits"
 assigned: 2025-10-09
 due: 2025-10-15 23:59
 layout: default
-title: jpa05
+title: jpa04
 prev_lab: jpa00
 nav_order: 100
 ready: false
@@ -12,7 +12,7 @@ layout: default
 parent: lab
 course_org: https://github.com/ucsb-cs156-f25
 course_org_name: ucsb-cs156-f25
-starter_repo: https://github.com/ucsb-cs156-f25/STARTER-jpa05
+starter_repo: https://github.com/ucsb-cs156-f25/STARTER-jpa04
 ---
 
 <style>
@@ -234,19 +234,19 @@ Just like in [{{page.prev_lab}}](/f25/labs/{{page.prev_lab}}.html), change the f
 Now, commit this change:
 
 ```
-git add src/main/java/Hello.java
+git add src/main/java/jpa00/Hello.java
 git commit -m "correct the output"
 git push origin main
 ```
 
-Ensure when you push to GitHub, your output does not look like this:
+Ensure when you push to GitHub, your output **does not** look like this:
 ```bash
 To github.com:ucsb-cs156-f25/jpa05-yourGithubId.git
  ! [remote rejected]   main -> main (push declined due to repository rule violations)
 error: failed to push some refs to 'github.com:ucsb-cs156-f25/jpa05-yourGithubId.git'
 ```
 
-If so, please ask for help in the slack channel.
+If so, please go back and look at the instructions for setting up signed commits, and go through them again.  You may have missed something.
 
 If it does work, try this command:
 
@@ -262,20 +262,8 @@ You can type `q` to get out of the `git log` command and return to the terminal 
 
 ## Step 4: Submit on Gradescope
 
-Now submit your work on Gradescope here: 
+Now submit your work on Gradescope at the link for {{page.title}}.
 
-* <{{page.canvas_link_a}}>
-
-If you get errors, correct them. Otherwise, proceed to submitting on Canvas:
-
-## Step 5: Submit on Canvas
-
-Now submit a link to your repo here:
-
-* <{{page.canvas_link_b}}>
-
-
-And you are finished!
 
 ## Instructor Resources
 

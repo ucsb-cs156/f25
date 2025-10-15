@@ -5,6 +5,11 @@ incremental: true
 
 jdk_distribution: "21.0.6-librca"
 
+exclude: 
+  - lab_SAVE
+  - lectures_SAVE
+  - hwk_SAVE
+
 course: "CMPSC 156"
 title: "CS156 f25"
 quarter: "Fall 2025"
@@ -14,8 +19,8 @@ baseurl: "/f25"
 slack_help_lecture_discussion: TBD
 sample_team: f25-04
 
-ta_list_full: TBD
-la_list_full: TBD
+ta_list_full: Sanjay Chandrasekaran, Kate Larrick
+la_list_full: Daniel Jensen, Derek Kirschbaum, Samuel Zhu, Divyani Punj
 discussion_section_day: Wednesday
 discussion_section_times: 4pm, 6pm
 
@@ -105,7 +110,7 @@ teams:
     team02_project: "tbd"
     legacy_project: "tbd" 
     legacy_kanban: 55
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08L649P62W
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GQV2B4UU
   - team: f25-05
     dokku: "05"
     team02_project: "tbd"
@@ -117,25 +122,25 @@ teams:
     team02_project: "tbd"
     legacy_project: "tbd" 
     legacy_kanban: 56
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08L6M63YNP
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09HDR951PA
   - team: f25-07
     dokku: "07"
     team02_project: "tbd"
     legacy_project: "tbd" 
     legacy_kanban: 51
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08L700MMPE
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GQV265V2
   - team: f25-08
     dokku: "08"
     team02_project: "tbd"
     legacy_project: "tbd" 
     legacy_kanban: 57
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08KP90NACX
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GHFZ0WTX
   - team: f25-09
     dokku: "09"
     team02_project: "tbd"
     legacy_project: "tbd" 
     legacy_kanban: 52
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08L64EH1NE
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GKJMPFEJ
   - team: f25-10
     dokku: "10"
     team02_project: "tbd"
@@ -153,7 +158,7 @@ teams:
     team02_project: "tbd"
     legacy_project: "tbd" 
     legacy_kanban: 54
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08L6MAKF9R
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GQV2S6BW
   - team: f25-13
     dokku: "13"
     team02_project: "tbd"
