@@ -10,10 +10,31 @@ layout: default
 
 
 ## Step 2: Configure your app for localhost as documented in the README.md
+- Complete step 1 of oauth setup: https://github.com/ucsb-cs156/proj-courses/blob/main/docs/oauth.md
+- Follow the steps here to configure a UCSB API key: https://ucsb-cs156.github.io/topics/apis/apis_ucsb_developer_api.html
 
+Open *two separate terminal windows*
+* In the first window, start up the backend with:
+  ``` 
+  mvn spring-boot:run
+  ```
+* In the second window:
+  ```
+  cd frontend
+  npm install  # only on first run or when dependencies change
+  npm start
+  ```
 
+Then, the app should be available on <http://localhost:8080>
+     
 ## Step 3: Configure your app to run on Dokku
+Next, you need to create a personal dokku deployment so that you can test future PRs during the legacy code project. 
 
+Name the app <tt>courses-dev-<i>yourGithubUsername</i></tt> and follow the steps here: https://ucsb-cs156.github.io/topics/dokku/deploying_an_app.html
+
+<!---You also need to configure MONGODB_URI in the .env file, following the instructions here: https://ucsb-cs156.github.io/topics/legacy_code/proj_courses_search.html#getting-the-value-for-mongodb_uri
+
+And lastly, you need to configure the value of CHROMATIC_PROJECT_TOKEN, following the instructions here: https://ucsb-cs156.github.io/topics/chromatic/#what-is-chromatic--->
 
 ## Return to the main instructions
 
