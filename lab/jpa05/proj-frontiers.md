@@ -2,6 +2,7 @@
 description: "Configuration of proj-frontiers dev deployment"
 title: jpa05-proj-frontiers
 nav_order: 100
+parent: lab/jpa05
 ---
 
 # {{page.title}} - {{page.description}}
