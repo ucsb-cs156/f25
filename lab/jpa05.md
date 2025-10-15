@@ -59,9 +59,9 @@ depends on which team you are a part of.
 | Teams | Repo |
 |-|-|
 | `01,02,03,04` | <https://github.com/ucsb-cs156/proj-courses> |
-| `05,06,07,08` | <https://github.com/ucsb-cs156/proj-courses> |
-| `09,10,11,12` | <https://github.com/ucsb-cs156/proj-courses> |
-| `13,14,15,16` | <https://github.com/ucsb-cs156/proj-courses> |
+| `05,06,07,08` | <https://github.com/ucsb-cs156/proj-dining> |
+| `09,10,11,12` | <https://github.com/ucsb-cs156/proj-frontiers> |
+| `13,14,15,16` | <https://github.com/ucsb-cs156/proj-happycows> |
 
 Note that you will have read only access to these repos, but at a later stage, you will have a copy of these repos that is set up specifically for your team, where you will the ability to push to every branch *except* the `main` branch.
 
@@ -92,7 +92,7 @@ As with jpa03, the configuration and deployment of the app can be broken down in
 
 ## Step 1: Clone the starter repo on your machine
 
-The starter repo you shoudl clone is one of these:
+The starter repo you should clone is one of these:
 
 | Teams | Repo |
 |-|-|
@@ -113,10 +113,10 @@ This step may differ in subtle ways across the four repos, so we have created se
 
 | Teams | Repo |
 |-|-|
-| `01,02,03,04` | <https://ucsb-cs156.github.io/f25/jpa05/proj-courses> |
-| `05,06,07,08` | <https://github.com/ucsb-cs156/proj-courses> |
-| `09,10,11,12` | <https://github.com/ucsb-cs156/proj-courses> |
-| `13,14,15,16` | <https://github.com/ucsb-cs156/proj-courses> |
+| `01,02,03,04` | <https://ucsb-cs156.github.io/f25/lab/jpa05/proj-courses.html> |
+| `05,06,07,08` | <https://github.com/ucsb-cs156/lab/jpa05/proj-dining.html> |
+| `09,10,11,12` | <https://github.com/ucsb-cs156/lab/jpa05/proj-frontiers.html> |
+| `13,14,15,16` | <https://github.com/ucsb-cs156/lab/jpa05/proj-happycows.html> |
 
 
 ## Step 3: Configure your app to run on Dokku
@@ -127,10 +127,10 @@ This step may differ in subtle ways across the four repos, so we have created se
 
 | Teams | Repo |
 |-|-|
-| `01,02,03,04` | <https://ucsb-cs156.github.io/f25/jpa05/proj-courses> |
-| `05,06,07,08` | <https://github.com/ucsb-cs156/proj-courses> |
-| `09,10,11,12` | <https://github.com/ucsb-cs156/proj-courses> |
-| `13,14,15,16` | <https://github.com/ucsb-cs156/proj-courses> |
+| `01,02,03,04` | <https://ucsb-cs156.github.io/f25/lab/jpa05/proj-courses.html> |
+| `05,06,07,08` | <https://github.com/ucsb-cs156/lab/jpa05/proj-dining.html> |
+| `09,10,11,12` | <https://github.com/ucsb-cs156/lab/jpa05/proj-frontiers.html> |
+| `13,14,15,16` | <https://github.com/ucsb-cs156/lab/jpa05/proj-happycows.html> |
 
 
 ### What if it doesn't work?
