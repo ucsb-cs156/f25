@@ -11,20 +11,27 @@ layout: default
 
 ## Step 2: Configure your app for localhost as documented in the README.md
 
-### 2a: Google OAuth Setup
+
+### 2a: Obtain UCSB API key value
+
+First, you will need a value for `UCSB_API_KEY`. You can obtain a value by following these instructions: [UCSB API Key Instructions](https://ucsb-cs156.github.io/topics/apis/apis_ucsb_developer_api.html)
+
+### 2b: Google OAuth Setup
 
 Assuming that you have set up a project in the Google Developer Console and set up an OAuth Consent Screen for your project (which should have been done in `jpa03`), you will just need to create a set of OAuth credentials (`GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` values) using Steps 1-4 of these instructions: [Oauth Google Setup](https://ucsb-cs156.github.io/topics/oauth/oauth_google_setup.html) 
 
 **NOTE:** The name of your Dokku app for `jpa05` will be `frontiers-dev-yourGithubUsername`, so your Dokku redirect URI will be <tt>https://<b><i>frontiers-dev-yourGithubUsername</i></b>.dokku-<b><i>xx</i></b>.cs.ucsb.edu/login/oauth2/code/google</tt>, where <i>xx</i> is your team number.
 
-Then, complete Step 1 in [oauth.md](https://github.com/ucsb-cs156/proj-frontiers/blob/main/docs/oauth.md) (set up `.env` values for `localhost`, including `ADMIN_EMAILS` )
+Then, complete Step 1 in [oauth.md](https://github.com/ucsb-cs156/proj-frontiers/blob/main/docs/oauth.md) (set up `.env` values for `localhost`, including `ADMIN_EMAILS` and `UCSB_API_KEY`)
 
-### 2b: Github OAuth Setup
+### 2c: Github App Setup
 
-TODO: Add link to instructions for Github OAuth setup.
+Now, you need to follow the additional steps in this file to setup Github credentials before continuing.
+
+* <https://github.com/ucsb-cs156/proj-frontiers/blob/main/docs/github-app-setup-localhost.md>
 
 
-### 2c: Launch your application
+### 2d: Launch your application
 
 * Open *two separate terminal windows*  
 * In the first window, start up the backend with:
@@ -43,7 +50,8 @@ Then, the app should be available on <http://localhost:8080>. Test that Oauth wa
 
 ## Step 3: Configure your app to run on Dokku
 
-### 3a: Creating and configuring your Dokku app
+
+### 3a: Creating and configuring your Dokku app 
 
 You will need to create a personal dokku deployment so that you can test future PRs during the legacy code project. This is a quick guide to setting up a `proj-frontiers` dokku instance that assumes you are already familiar with the basic operation of dokku, and just need a "cheat sheet" to get up and running quickly. 
 
@@ -68,17 +76,29 @@ dokku git:set frontiers-dev-yourGithubUsername keep-git-dir true
 dokku config:set --no-restart frontiers-dev-yourGithubUsername PRODUCTION=true
 dokku config:set --no-restart frontiers-dev-yourGithubUsername GOOGLE_CLIENT_ID=get-value-from-google-developer-console # modify this
 dokku config:set --no-restart frontiers-dev-yourGithubUsername GOOGLE_CLIENT_SECRET=get-value-from-google-developer-console # modify this
-dokku config:set --no-restart frontiers-dev-yourGithubUsername UCSB_API_KEY=get-from-developer.ucsb.edu  # modify this
 
-# Set SOURCE_REPO to your team's project repo (modify the url)
+# Set SOURCE_REPO to the project repo (modify the url)
+
 # This is for the link in the footer, and for the link to currently deployed branch in /api/systemInfo
 dokku config:set --no-restart frontiers-dev-yourGithubUsername SOURCE_REPO=https://github.com/ucsb-cs156/proj-frontiers
 
 # Set ADMIN_EMAILS to staff emails and team emails
 dokku config:set --no-restart frontiers-dev-yourGithubUsername ADMIN_EMAILS=list-of-admin-emails # modify this
+```
 
+### 3b: Configuring your Dokku App as a Github App
+
+Now, you need to follow the additional steps in this file to setup Github credentials before continuing.
+
+* <https://github.com/ucsb-cs156/proj-frontiers/blob/main/docs/github-app-setup-dokku.md>
+
+### 3c: Syncing app with Github and Deploying on Dokku.
+
+Now follow these steps to sync your app with Github and deploy it on Dokku
+
+```
 # git sync for first deploy (http)
-dokku git:sync frontiers-dev-yourGithubUsername https://github.com/ucsb-cs156/proj-frontiers main  
+dokku git:sync frontiers-dev-yourGithubUsername https://github.com/ucsb-cs156/proj-frontiers main  # modify this 
 dokku ps:rebuild frontiers-dev-yourGithubUsername
 
 # Enable https
@@ -94,7 +114,6 @@ Your app should now be running at <tt>https://frontiers-dev-<i>yourGithubUsernam
 If you have any issues with configuring your Dokku app, see the more detailed instructions: [Deploying a Dokku App](https://ucsb-cs156.github.io/topics/dokku/deploying_an_app.html)
 
 Full documentation: [Dokku Setup](https://ucsb-cs156.github.io/topics/dokku/)
-
 
 ## Return to the main instructions
 
