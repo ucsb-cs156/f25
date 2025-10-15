@@ -21,15 +21,6 @@ starter_repo: https://github.com/ucsb-cs156-f25/STARTER-jpa04
   pre {white-space: pre}
 </style>
 
-## WAIT: Autograder not yet ready
-## WAIT: Instructions not yet ready
-## WAIT: Autograder not yet ready
-## WAIT: Instructions not yet ready
-## WAIT: Autograder not yet ready
-## WAIT: Instructions not yet ready
-## WAIT: Autograder not yet ready
-## WAIT: Instructions not yet ready
-
 {% include drop_down_style.html %}
 
 
