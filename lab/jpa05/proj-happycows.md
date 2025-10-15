@@ -39,6 +39,8 @@ Then, complete Step 1 in [oauth.md](https://github.com/ucsb-cs156/proj-happycows
 * In the second window:
   ```
   cd frontend
+  nvm install v22.18.0
+  nvm use v22.18.0
   npm install  # only on first run or when dependencies change
   npm start
   ```
