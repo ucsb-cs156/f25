@@ -94,10 +94,6 @@ If you have any issues with configuring your Dokku app, see the more detailed in
 
 A full documentation: [Dokku Setup](https://ucsb-cs156.github.io/topics/dokku/)
 
-### 3b: Setting up Github Pages
-
-You will also need to set up Github Pages using these instructions: [Github Pages Setup](https://github.com/ucsb-cs156/proj-courses/blob/main/docs/github-pages.md)
-
 ## Return to the main instructions
 
 Please return to the main instructions 
