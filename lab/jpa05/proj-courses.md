@@ -24,6 +24,8 @@ Open *two separate terminal windows*
 * In the second window:
   ```
   cd frontend
+  nvm install 20.17.0
+  nvm use 20.17.0
   npm install  # only on first run or when dependencies change
   npm start
   ```
