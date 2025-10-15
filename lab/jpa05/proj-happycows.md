@@ -24,6 +24,7 @@ Then, complete Step 1 in [oauth.md](https://github.com/ucsb-cs156/proj-happycows
 * Open *two separate terminal windows*  
 * In the first window, start up the backend with:
   ``` 
+  mvn compile # sometimes you have to run this on first booting or else mvn spring-boot:run prematurely exits
   mvn spring-boot:run
   ```
 * In the second window:
