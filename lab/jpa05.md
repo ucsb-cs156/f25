@@ -16,18 +16,6 @@ staff_emails: "djensen@ucsb.edu,sanjaychandrasekaran@ucsb.edu,katelarrick@ucsb.e
 previous_deploy_backend_lab: jpa03
 ---
 
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-
-
 <style>
   tt {white-space: pre; font-size: 80%;}
   code {white-space: pre}
