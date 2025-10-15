@@ -97,9 +97,9 @@ The starter repo you should clone is one of these:
 | Teams | Repo |
 |-|-|
 | `01,02,03,04` | <https://github.com/ucsb-cs156/proj-courses> |
-| `05,06,07,08` | <https://github.com/ucsb-cs156/proj-courses> |
-| `09,10,11,12` | <https://github.com/ucsb-cs156/proj-courses> |
-| `13,14,15,16` | <https://github.com/ucsb-cs156/proj-courses> |
+| `05,06,07,08` | <https://github.com/ucsb-cs156/proj-dining> |
+| `09,10,11,12` | <https://github.com/ucsb-cs156/proj-frontiers> |
+| `13,14,15,16` | <https://github.com/ucsb-cs156/proj-happycows> |
 
 NOTE: You should use the `https` link rather than the `ssh` link, since you don't have push access to these repos.
 
@@ -114,9 +114,9 @@ This step may differ in subtle ways across the four repos, so we have created se
 | Teams | Repo |
 |-|-|
 | `01,02,03,04` | <https://ucsb-cs156.github.io/f25/lab/jpa05/proj-courses.html> |
-| `05,06,07,08` | <https://github.com/ucsb-cs156/lab/jpa05/proj-dining.html> |
-| `09,10,11,12` | <https://github.com/ucsb-cs156/lab/jpa05/proj-frontiers.html> |
-| `13,14,15,16` | <https://github.com/ucsb-cs156/lab/jpa05/proj-happycows.html> |
+| `05,06,07,08` | <https://github.com/ucsb-cs156/f25/lab/jpa05/proj-dining.html> |
+| `09,10,11,12` | <https://github.com/ucsb-cs156/f25/lab/jpa05/proj-frontiers.html> |
+| `13,14,15,16` | <https://github.com/ucsb-cs156/f25/lab/jpa05/proj-happycows.html> |
 
 
 ## Step 3: Configure your app to run on Dokku
@@ -128,9 +128,9 @@ This step may differ in subtle ways across the four repos, so we have created se
 | Teams | Repo |
 |-|-|
 | `01,02,03,04` | <https://ucsb-cs156.github.io/f25/lab/jpa05/proj-courses.html> |
-| `05,06,07,08` | <https://github.com/ucsb-cs156/lab/jpa05/proj-dining.html> |
-| `09,10,11,12` | <https://github.com/ucsb-cs156/lab/jpa05/proj-frontiers.html> |
-| `13,14,15,16` | <https://github.com/ucsb-cs156/lab/jpa05/proj-happycows.html> |
+| `05,06,07,08` | <https://github.com/ucsb-cs156/f25/lab/jpa05/proj-dining.html> |
+| `09,10,11,12` | <https://github.com/ucsb-cs156/f25/lab/jpa05/proj-frontiers.html> |
+| `13,14,15,16` | <https://github.com/ucsb-cs156/f25/lab/jpa05/proj-happycows.html> |
 
 
 ### What if it doesn't work?
