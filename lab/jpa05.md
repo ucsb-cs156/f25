@@ -24,7 +24,7 @@ previous_deploy_backend_lab: jpa03
 
 {% include drop_down_style.html %}
 
-For due date: see jpa03 on Gradescope.
+For due date: see jpa05 on Canvas.
 
 # Instructions for jpa05
 
