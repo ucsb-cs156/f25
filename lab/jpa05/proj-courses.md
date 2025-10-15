@@ -10,8 +10,11 @@ layout: default
 
 
 ## Step 2: Configure your app for localhost as documented in the README.md
-- Complete step 1 of oauth setup: https://github.com/ucsb-cs156/proj-courses/blob/main/docs/oauth.md
-- Follow the steps here to configure a UCSB API key: https://ucsb-cs156.github.io/topics/apis/apis_ucsb_developer_api.html
+First, complete step 1 of oauth setup here:
+* <https://github.com/ucsb-cs156/proj-courses/blob/main/docs/oauth.md>
+  
+Next, follow the steps here to configure a UCSB API key:
+* <https://ucsb-cs156.github.io/topics/apis/apis_ucsb_developer_api.html>
 
 Open *two separate terminal windows*
 * In the first window, start up the backend with:
