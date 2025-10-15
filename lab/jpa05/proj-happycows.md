@@ -48,6 +48,58 @@ Then, the app should be available on <http://localhost:8080>. Test that Oauth wa
 
 ## Step 3: Configure your app to run on Dokku
 
+### 3a: Creating and configuring your Dokku app
+
+You will need to create a personal dokku deployment so that you can test future PRs during the legacy code project. This is a quick guide to setting up a `proj-happycows` dokku instance that assumes you are already familiar with the basic operation of dokku, and just need a "cheat sheet" to get up and running quickly. 
+
+First, log in to your dokku machine--ssh into csil, then dokku ([Login instructions](https://ucsb-cs156.github.io/topics/dokku/logging_in.html)). 
+
+The lines in the instructions where you need to modify something are marked with the comment: `# modify this`
+
+* The other lines you can copy/paste as is, except for changing `happycows-dev-yourGithubUsername` to your app name
+
+```
+# Create app
+dokku apps:create happycows-dev-yourGithubUsername
+
+# Create and link postgres database
+dokku postgres:create happycows-dev-yourGithubUsername-db
+dokku postgres:link happycows-dev-yourGithubUsername-db happycows-dev-yourGithubUsername --no-restart
+
+# Modify dokku settings
+dokku git:set happycows-dev-yourGithubUsername keep-git-dir true
+
+# Set config vars
+dokku config:set --no-restart happycows-dev-yourGithubUsername PRODUCTION=true
+dokku config:set --no-restart happycows-dev-yourGithubUsername GOOGLE_CLIENT_ID=get-value-from-google-developer-console # modify this
+dokku config:set --no-restart happycows-dev-yourGithubUsername GOOGLE_CLIENT_SECRET=get-value-from-google-developer-console # modify this
+
+# Set SOURCE_REPO to the project repo (modify the url)
+
+# This is for the link in the footer, and for the link to currently deployed branch in /api/systemInfo
+dokku config:set --no-restart happycows-dev-yourGithubUsername SOURCE_REPO=https://github.com/ucsb-cs156/proj-happycows
+
+# Set ADMIN_EMAILS to staff emails and team emails
+dokku config:set --no-restart happycows-dev-yourGithubUsername ADMIN_EMAILS=list-of-admin-emails # modify this
+
+# git sync for first deploy (http)
+dokku git:sync happycows-dev-yourGithubUsername https://github.com/ucsb-cs156/proj-happycows main   
+dokku ps:rebuild happycows-dev-yourGithubUsername
+
+# Enable https
+dokku letsencrypt:set happycows-dev-yourGithubUsername email yourEmail@ucsb.edu # modify email
+dokku letsencrypt:enable happycows-dev-yourGithubUsername
+
+# rebuild again
+dokku ps:rebuild happycows-dev-yourGithubUsername
+```
+
+Your app should now be running at <tt>https://happycows-dev-<i>yourGithubUsername</i>.dokku-<i>xx</i>.cs.ucsb.edu</tt>. Make sure that you are able to log in.  
+
+If you have any issues with configuring your Dokku app, see the more detailed instructions: [Deploying a Dokku App](https://ucsb-cs156.github.io/topics/dokku/deploying_an_app.html)
+
+Full documentation: [Dokku Setup](https://ucsb-cs156.github.io/topics/dokku/)
+
 
 ## Return to the main instructions
 
