@@ -69,15 +69,16 @@ dokku config:set --no-restart dining-dev-yourGithubUsername GOOGLE_CLIENT_ID=get
 dokku config:set --no-restart dining-dev-yourGithubUsername GOOGLE_CLIENT_SECRET=get-value-from-google-developer-console # modify this
 dokku config:set --no-restart dining-dev-yourGithubUsername UCSB_API_KEY=get-from-developer.ucsb.edu  # modify this
 
-# Set SOURCE_REPO to your team's project repo (modify the url)
+# Set SOURCE_REPO to the project repo (modify the url)
+
 # This is for the link in the footer, and for the link to currently deployed branch in /api/systemInfo
-dokku config:set --no-restart dining-dev-yourGithubUsername SOURCE_REPO=YOUR-REPO-URL 
+dokku config:set --no-restart dining-dev-yourGithubUsername SOURCE_REPO=https://github.com/ucsb-cs156/proj-dining
 
 # Set ADMIN_EMAILS to staff emails and team emails
 dokku config:set --no-restart dining-dev-yourGithubUsername ADMIN_EMAILS=list-of-admin-emails # modify this
 
 # git sync for first deploy (http)
-dokku git:sync dining-dev-yourGithubUsername https://github.com/ucsb-cs156-s25/proj-dining-s25-xx main  # modify this 
+dokku git:sync dining-dev-yourGithubUsername https://github.com/ucsb-cs156/proj-dining main  # modify this 
 dokku ps:rebuild dining-dev-yourGithubUsername
 
 # Enable https
@@ -88,11 +89,11 @@ dokku letsencrypt:enable dining-dev-yourGithubUsername
 dokku ps:rebuild dining-dev-yourGithubUsername
 ```
 
-Your app should now be running at <tt>https://<i>appname</i>.dokku-<i>xx</i>.cs.ucsb.edu</tt>. Make sure that you are able to log in.  
+Your app should now be running at <tt>https://dining-dev-<i>yourGithubUsername</i>.dokku-<i>xx</i>.cs.ucsb.edu</tt>. Make sure that you are able to log in.  
 
 If you have any issues with configuring your Dokku app, see the more detailed instructions: [Deploying a Dokku App](https://ucsb-cs156.github.io/topics/dokku/deploying_an_app.html)
 
-A full documentation: [Dokku Setup](https://ucsb-cs156.github.io/topics/dokku/)
+Full documentation: [Dokku Setup](https://ucsb-cs156.github.io/topics/dokku/)
 
 ## Return to the main instructions
 
