@@ -72,7 +72,7 @@ dokku config:set --no-restart frontiers-dev-yourGithubUsername UCSB_API_KEY=get-
 
 # Set SOURCE_REPO to your team's project repo (modify the url)
 # This is for the link in the footer, and for the link to currently deployed branch in /api/systemInfo
-dokku config:set --no-restart frontiers-dev-yourGithubUsername SOURCE_REPO=YOUR-REPO-URL 
+dokku config:set --no-restart frontiers-dev-yourGithubUsername SOURCE_REPO=https://github.com/ucsb-cs156/proj-frontiers
 
 # Set ADMIN_EMAILS to staff emails and team emails
 dokku config:set --no-restart frontiers-dev-yourGithubUsername ADMIN_EMAILS=list-of-admin-emails # modify this
