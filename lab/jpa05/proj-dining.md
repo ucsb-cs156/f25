@@ -11,13 +11,17 @@ layout: default
 
 ## Step 2: Configure your app for localhost (as documented in the README.md)
 
-### 2a: OAuth Setup
+### 2a: Obtain UCSB API key value
+
+First, you will need a value for `UCSB_API_KEY`. You can obtain a value by following these instructions: [UCSB API Key Instructions](https://ucsb-cs156.github.io/topics/apis/apis_ucsb_developer_api.html)   This value goes in your `.env` file. 
+
+### 2b: OAuth Setup
 
 Assuming that you have set up a project in the Google Developer Console and set up an OAuth Consent Screen for your project (which should have been done in `jpa03`), you will just need to create a set of OAuth credentials (`GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` values): [Oauth Google Setup](https://ucsb-cs156.github.io/topics/oauth/oauth_google_setup.html)
 
 Then, complete Step 1 in [oauth.md](https://github.com/ucsb-cs156/proj-courses/blob/main/docs/oauth.md) (set up `.env` values for `localhost`, including `ADMIN_EMAILS`)
 
-### 2b: Launch your application
+### 2c: Launch your application
 
 * Open *two separate terminal windows*  
 * In the first window, start up the backend with:
