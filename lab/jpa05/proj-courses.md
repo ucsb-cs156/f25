@@ -36,6 +36,8 @@ Name the app <tt>courses-dev-<i>yourGithubUsername</i></tt> and follow the steps
 
 And lastly, you need to configure the value of CHROMATIC_PROJECT_TOKEN, following the instructions here: https://ucsb-cs156.github.io/topics/chromatic/#what-is-chromatic--->
 
+You also need to setup github pages following the instructions here: https://github.com/ucsb-cs156/proj-courses/blob/main/docs/github-pages.md
+
 ## Return to the main instructions
 
 Please return to the main instructions 
