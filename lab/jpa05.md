@@ -24,9 +24,9 @@ previous_deploy_backend_lab: jpa03
 
 {% include drop_down_style.html %}
 
-For due date: see jpa05 on Canvas.
+For due date: see {{page.title}} on Canvas.
 
-# Instructions for jpa05
+# Instructions for {{page.title}}
 
 If you run into problems, let us know on the {{page.slack_help_channel}} channel on the slack.
 
