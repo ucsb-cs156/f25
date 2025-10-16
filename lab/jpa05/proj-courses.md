@@ -10,9 +10,19 @@ layout: default
 
 
 ## Step 2: Configure your app for localhost as documented in the README.md
+
+In this step, you are configuring your app to run on localhost.  This consists mainly 
+of:
+* Copying `.env.SAMPLE` to `.env`
+* Filling in various values in the `.env` as explained below.
+
+Two values you will NOT need to set for this assignment are:
+* `CHROMATIC_PROJECT_TOKEN` (we'll need this later, but not now)
+* `MONGODB_URI` (we'll need to set this on dokku, but not localhost)
+
 First, complete step 1 of oauth setup here:
 * <https://github.com/ucsb-cs156/proj-courses/blob/main/docs/oauth.md>
-  
+
 Next, follow the steps here to configure a UCSB API key:
 * <https://ucsb-cs156.github.io/topics/apis/apis_ucsb_developer_api.html>
 
