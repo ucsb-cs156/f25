@@ -26,12 +26,13 @@ First, complete step 1 of oauth setup here:
 Next, follow the steps here to configure a UCSB API key:
 * <https://ucsb-cs156.github.io/topics/apis/apis_ucsb_developer_api.html>
 
-Open *two separate terminal windows*
+Open *two separate terminal windows*, each of which has the directory where you cloned the repo as the current directory.
+
 * In the first window, start up the backend with:
   ``` 
   mvn spring-boot:run
   ```
-* In the second window:
+* In the second window, start up the frontend with:
   ```
   cd frontend
   nvm install 20.17.0
