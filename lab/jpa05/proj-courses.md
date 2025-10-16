@@ -56,9 +56,11 @@ You'll see that you can change the start and end quarters for the menus by chang
 When you're satisfied that the application works, you can use Control-C to shut down both the frontend and backend, and move on to the next step: deploying on dokku.
 
 ## Step 3: Configure your app to run on Dokku
-Next, you need to create a personal dokku deployment so that you can test future PRs during the legacy code project. 
+Next, you need to create a personal dokku deployment so that you can test future PRs during the legacy code project.
 
-Name the app `courses-dev-yourGithubUsername` and follow the steps here: 
+Start by logging in on the dokku machine that corresponds to your team number.
+
+Create a dokku app called `courses-dev-yourGithubUsername` and follow the steps here: 
 
 * <https://ucsb-cs156.github.io/topics/dokku/deploying_an_app.html>
 
