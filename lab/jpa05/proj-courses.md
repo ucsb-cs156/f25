@@ -60,13 +60,10 @@ Next, you need to create a personal dokku deployment so that you can test future
 
 Start by logging in on the dokku machine that corresponds to your team number.
 
-Create a dokku app called `courses-dev-yourGithubUsername` and follow the steps here: 
+Create a dokku app called `courses-dev-yourGithubUsername` and follow the steps here.  Be sure to include the MongoDB step.
 
 * <https://ucsb-cs156.github.io/topics/dokku/deploying_an_app.html>
 
-You also need to set up MongoDB on Dokku, following the instructions here: 
-
-* <https://github.com/ucsb-cs156/proj-courses/blob/main/docs/mongodb.md>
 
 ## Return to the main instructions
 
