@@ -1,8 +1,8 @@
 ---
 title: team02
 description: "Team Project: React CRUD frontend"
-assigned: 2025-04-24
-due: 2025-05-02 23:59
+assigned: 2025-10-28
+due: 2025-11-04 23:59
 github_org: ucsb-cs156-f25
 github_org_url: https://github.com/ucsb-cs156-f25
 sample_team: f25-01
@@ -15,10 +15,22 @@ ready: true
 starter: https://github.com/ucsb-cs156-f25/STARTER-team02
 deployment: https://team02.dokku-00.cs.ucsb.edu/
 storybook: https://ucsb-cs156-f25.github.io/STARTER-team02/chromatic
-canvas: https://ucsb.instructure.com/courses/25659/assignments/348165
-help_team02: "[<tt>#help-team02</tt>](https://ucsb-cs156-f25.slack.com/archives/C08MUGUKDGS)"
-nvm_use: "<tt>nvm use 22.14.0</tt>"
+canvas: https://ucsb.instructure.com/courses/27687/assignments/381964
+help_team02: "[<tt>#help-team02</tt>](https://ucsb-cs156-f25.slack.com/archives/C09MDAMH27K)"
+nvm_use: "<tt>nvm use 22.18.0</tt>"
 ---
+
+# DON'T START YET
+# DON'T START YET
+# DON'T START YET
+# DON'T START YET
+# DON'T START YET
+# DON'T START YET
+# DON'T START YET
+# DON'T START YET
+# DON'T START YET
+# DON'T START YET
+
 <style>
   tt {white-space: pre;}
   code {white-space: pre; font-size: 80%}

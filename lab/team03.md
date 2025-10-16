@@ -1,13 +1,13 @@
 ---
 layout: default
-assigned: 2025-05-01
+assigned: 2025-10-30
 description: 'Integration and E2E Testing'
-due: 2025-05-08
+due: 2025-11-06
 title: team03
 repo_to_work_in: team02
 layout: default
 qxx: f25
-canvas: https://ucsb.instructure.com/courses/25659/assignments/348166
+canvas: https://ucsb.instructure.com/courses/27687/assignments/381965
 starter: https://github.com/ucsb-cs156-f25/STARTER-team02
 sample_team: f25-04
 layout: default
