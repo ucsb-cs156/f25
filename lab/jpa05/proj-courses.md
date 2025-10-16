@@ -41,8 +41,20 @@ Open *two separate terminal windows*, each of which has the directory where you 
   npm start
   ```
 
-Then, the app should be available on <http://localhost:8080>
-     
+A window will pop up with the frontend running on port 3000, but this is not the address you want.  You'll see this in the browser:
+
+<img width="489" height="61" alt="image" src="https://github.com/user-attachments/assets/ab305d5e-339a-4c77-b9b9-08e1e589210c" />
+
+Click on the link to <http://localhost:8080>, and you should see the app running.
+
+Try logging in, and make sure you can log in successfully.
+
+Also try exploring the features of the app a bit.
+
+You'll see that you can change the start and end quarters for the menus by changing the values of `START_QTR` and `END_QTR` in your `.env` file.  The first four digits are the year, and the last digit is the quarter (1 for winter, 2 for spring, 3 for summer and 4 for fall.)
+
+When you're satisfied that the application works, you can use Control-C to shut down both the frontend and backend, and move on to the next step: deploying on dokku.
+
 ## Step 3: Configure your app to run on Dokku
 Next, you need to create a personal dokku deployment so that you can test future PRs during the legacy code project. 
 
