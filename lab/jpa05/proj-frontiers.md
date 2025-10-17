@@ -11,7 +11,7 @@ layout: default
 
 ## Step 2: Configure your app for localhost as documented in the README.md
 
-### Google OAuth Setup
+### 2a: Google OAuth Setup
 
 Assuming that you have set up a project in the Google Developer Console and set up an OAuth Consent Screen for your project (which should have been done in `jpa03`), you will just need to create a set of OAuth credentials (`GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` values) using Steps 1-4 of these instructions: [Oauth Google Setup](https://ucsb-cs156.github.io/topics/oauth/oauth_google_setup.html) 
 
@@ -28,14 +28,14 @@ where <i>xx</i> is your team number.
 
 Then, complete Step 1 in [oauth.md](https://github.com/ucsb-cs156/proj-frontiers/blob/main/docs/oauth.md) (set up `.env` values for `localhost`, including `ADMIN_EMAILS`)
 
-### 2c: Github App Setup
+### 2b: Github App Setup
 
 Now, you need to follow the additional steps in this file to setup Github credentials before continuing.
 
 * <https://github.com/ucsb-cs156/proj-frontiers/blob/main/docs/github-app-setup-localhost.md>
 
 
-### 2d: Launch your application
+### 2c: Launch your application
 
 * Open *two separate terminal windows*  
 * In the first window, start up the backend with:
