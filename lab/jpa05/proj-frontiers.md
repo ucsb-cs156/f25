@@ -11,12 +11,7 @@ layout: default
 
 ## Step 2: Configure your app for localhost as documented in the README.md
 
-
-### 2a: Obtain UCSB API key value
-
-First, you will need a value for `UCSB_API_KEY`. You can obtain a value by following these instructions: [UCSB API Key Instructions](https://ucsb-cs156.github.io/topics/apis/apis_ucsb_developer_api.html)
-
-### 2b: Google OAuth Setup
+### Google OAuth Setup
 
 Assuming that you have set up a project in the Google Developer Console and set up an OAuth Consent Screen for your project (which should have been done in `jpa03`), you will just need to create a set of OAuth credentials (`GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` values) using Steps 1-4 of these instructions: [Oauth Google Setup](https://ucsb-cs156.github.io/topics/oauth/oauth_google_setup.html) 
 
@@ -31,7 +26,7 @@ And your second Dokku redirect URI will be:
 
 where <i>xx</i> is your team number.
 
-Then, complete Step 1 in [oauth.md](https://github.com/ucsb-cs156/proj-frontiers/blob/main/docs/oauth.md) (set up `.env` values for `localhost`, including `ADMIN_EMAILS` and `UCSB_API_KEY`)
+Then, complete Step 1 in [oauth.md](https://github.com/ucsb-cs156/proj-frontiers/blob/main/docs/oauth.md) (set up `.env` values for `localhost`, including `ADMIN_EMAILS`)
 
 ### 2c: Github App Setup
 
