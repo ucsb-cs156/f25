@@ -78,8 +78,8 @@ So try to steer a middle ground between these two extremes.
 This project is divided into three phases:
 
 * team01: You'll focus only on the backend primarily using swagger as your tool to interact with the applications, plus writing unit tests for the backend code.
-* team02: You'll focus on the frontend code, using Storybook/Chromatic along with unit tests for React/Javascript code, as well as interactive testing of the completed app.
-* team03: You'll learn how to write integration tests using Spring Boot,  and end-to-end tests using Playwright that ensure that individual parts of the app work together properly.
+* [team02](https://ucsb-cs156.github.io/{{site.qxx}}/lab/team02.html): You'll focus on the frontend code, using Storybook/Chromatic along with unit tests for React/Javascript code, as well as interactive testing of the completed app.
+* [team03](https://ucsb-cs156.github.io/{{site.qxx}}/lab/team03.html): You'll learn how to write integration tests using Spring Boot,  and end-to-end tests using Playwright that ensure that individual parts of the app work together properly.
 
 In this assignment, we will build the backend only for api endpoint that allow CRUD operations (Create, Read, Update, Destroy) for each of six database tables.
 
