@@ -51,27 +51,7 @@ project_title: team01
 
 For due date: see the {{page.title}} entry on Canvas: <{{page.canvas_link}}>
 
-## Things to watch out for
 
-Every time CS156 is offered, we try to introduce more and more "real world industry practices" into the code bases.
-
-This has pros and cons.
-
-* Pro: You're getting better prepared for industry practices!
-* Con: There's always a risk that something goes wrong with the "new stuff".
-* Pro: That's also a very real world concern, so it's good to get used to it.
-
-Some of the newest stuff for Fall 2025 is that we've incorporated a *static analysis* tool
-into our workflows, namely the PMD tool.  PMD stands for "Program Mistake Detector" and it's
-a tool to check Java code for common style and correctness issues.
-
-*We have not used this tool in CMPSC 156 before*.  So, there may be issues that 
-arise, and we will ask for your patience in resolving those.  If you see something 
-that goes wrong with the PMD Github Workflows, please report it on the `#help-team01` channel
-on Slack, and we'll do our best to resolve it quickly.
-
-If the tool works, then it should annotate our Pull Requests with suggestions
-for how to improve the code.  
 
 ## What this assignment is about: Database CRUD operations
 
