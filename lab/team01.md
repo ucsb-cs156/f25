@@ -30,17 +30,6 @@ num_database_tables_alpha: 6
 project_title: team01
 ---
 
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-
 <style>
   tt {white-space: pre; font-size: 80%;}
   code {white-space: pre}
