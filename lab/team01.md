@@ -1095,7 +1095,7 @@ The next step was probably already done in team01, but just in case:
 
 ### If setting up starter code and Kanban boards for students
 
-Change directory into a directory where you can clone all of the repos like this:
+**Clone all repos**: change directory into a directory where you can clone all of the repos like this:
 
 ```
 for team in {01..16}
@@ -1104,14 +1104,41 @@ do
   git clone git@github.com:ucsb-cs156-f25/team01-f25-${team}.git
 done
 ```
-
-Then, use a loop like this to add the starter remotes:
+** Add starter remotes **: use a loop like this to add the starter remotes:
 ```
 for team in {01..16}
 do
   echo "Adding starter remote for $team"
   cd team01-f25-${team}
   git remote add starter https://github.com/ucsb-cs156-f25/STARTER-team01
+  cd ..
+done
+```
+
+** First time pull from starter **: use a loop like this to pull in the starter code and push to main
+
+```
+for team in {01..16}
+do
+  echo "pull from starter for $team"
+  cd team01-f25-${team}
+  git pull starter main
+  git push origin main
+  cd ..
+done
+```
+
+** Subsequent pulls from starter **: use a loop like this to pull in updates to the starter code:
+
+```
+for team in {01..16}
+do
+  echo "pull from starter for $team"
+  cd team01-f25-${team}
+  git checkout main
+  git pull origin main
+  git pull starter main
+  git push origin main
   cd ..
 done
 ```
