@@ -21,4 +21,4 @@ Please bring up the instructions here:
 
 Also, complete this participation activity:
 
-* <https://ucsb-cs156.github.io/f25/hwk/p09.html>
+* <https://ucsb-cs156.github.io/f25/hwk/p09/>
