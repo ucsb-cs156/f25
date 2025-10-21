@@ -1115,7 +1115,7 @@ do
 done
 ```
 
-** First time pull from starter **: use a loop like this to pull in the starter code and push to main
+**First time pull from starter**: use a loop like this to pull in the starter code and push to main
 
 ```
 for team in {01..16}
@@ -1128,7 +1128,7 @@ do
 done
 ```
 
-** Subsequent pulls from starter **: use a loop like this to pull in updates to the starter code:
+**Subsequent pulls from starter**: use a loop like this to pull in updates to the starter code:
 
 ```
 for team in {01..16}
