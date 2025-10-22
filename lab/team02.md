@@ -619,4 +619,56 @@ The next step was probably already done earlier, but just in case:
 |[{{page.title}}-{{t.team}}]({{page.github_org_url}}/{{page.title}}-{{t.team}}) | [{{page.title}}-{{t.team}}](https://github.com/orgs/{{page.github_org}}/projects/{{t.team02_project}}) | [{{page.title}}-{{t.team}}](https://{{page.github_org}}.github.io/{{page.title}}-{{t.team}}) | [99-{{page.title}}.yml]({{page.github_org_url}}/{{page.title}}-{{t.team}}/actions/workflows/99-{{page.title}}.yml) | {% endfor %}
 
 
+
+### If setting up starter code and Kanban boards for students
+
+**Clone all repos**: change directory into a directory where you can clone all of the repos like this:
+
+```
+for team in {01..16}
+do
+  echo "Setting up code for $team"
+  git clone git@github.com:ucsb-cs156-f25/team02-f25-${team}.git
+done
+```
+** Add starter remotes **: use a loop like this to add the starter remotes:
+```
+for team in {01..16}
+do
+  echo "Adding starter remote for $team"
+  cd team02-f25-${team}
+  git remote add starter https://github.com/ucsb-cs156-f25/STARTER-team02
+  cd ..
+done
+```
+
+**First time pull from starter**: use a loop like this to pull in the starter code and push to main
+
+```
+for team in {01..16}
+do
+  echo "pull from starter for $team"
+  cd team02-f25-${team}
+  git pull starter main
+  git push origin main
+  cd ..
+done
+```
+
+**Subsequent pulls from starter**: use a loop like this to pull in updates to the starter code:
+
+```
+for team in {01..16}
+do
+  echo "pull from starter for $team"
+  cd team02-f25-${team}
+  git checkout main
+  git pull origin main
+  git pull starter main
+  git push origin main
+  cd ..
+done
+```
+
+
 </details>
