@@ -564,24 +564,21 @@ Before releasing this lab to students, be sure the following tasks are done:
 
 
 * Finalize starter code repo <{{page.starter}}>
-
-* Create <{{page.title}}> repos using the <https://ucsb-cs-github-linker.herokuapp.com>
-
-  <img width="465" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/434dceb9-77a3-4ce6-9c28-a5faf4e0be1d">
-
-* Set up starter code in the course organization, and update links
-* Create a Canvas assignment for <{{page.title}}>; update the due dates and publish it
-* Create projects for all of the groups. You can find a script for this here:
-  * <https://github.com/ucsb-cs156-f25/project-creator/blob/main/scripts/<{{page.title}}>-projects.sh>
-  You will probably need to make a new copy of that repo for this quarter in this
-  quarter's organization and update the scripts.
-* After running the script, there are three aspects of setting up the projects that
-  are manual:
-  * set view to board
-  * add "In Review" column
-  * change team access to admin
-    
-    ![set-team-access-admin](https://github.com/ucsb-cs156/s24/assets/1119017/aeff9ce9-4a21-42f4-84ce-cc0cce7a12d4)
+* Create {{page.title}} repos using the github actions in <https://github.com/ucsb-cs156-f25/membership-scripts>
+  * public
+  * team access admin
+  * signed commits
+* Create a Canvas assignment for {{page.title}}; update the due dates and publish it
+* Create projects for all of the groups. The best way is to create a Template that
+  has precisely the setup you want (i.e. the columns, etc.) and then manually create the
+  team kanban boards.  There is not yet an API that will create the project with a precise
+  configuration of columns, etc. so this is still the easiest way.  Make sure the projects
+  are named with the same exact names as the repos; this makes a later step easier.
+* Then, update `_config.yml` for the website with the project numbers for team01.  This causes the table of links in this lab to render properly.
+* Then, in <https://github.com/ucsb-cs156-f25/membership-scripts>, there is a Github Action that will 
+  * Link the project to the repo
+  * Set the permission for the project properly
+* Double check that the kanban boards and repos are set up and have the correct permissions.
 
 
 * Make sure the app <{{page.deployment}}> is up and running, and is sync'd with the starter code:
