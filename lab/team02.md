@@ -670,5 +670,10 @@ do
 done
 ```
 
+## Workflows to set up branch protection, etc
+
+Once each repo has a main branch, consider running workflow 71 from the 
+membership-scripts repo which sets up branch protection rules.
+
 
 </details>
