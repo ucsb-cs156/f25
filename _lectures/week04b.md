@@ -36,7 +36,7 @@ every class will start with a standup meeting.
 
 2. When you see that everyone that is present has made a post in the channel (including anyone attending remotely via zoom), invite everyone to stand, and read out their post to the group.
 
-   (Yes, we know this may seem silly.  However, the point is to *actually practice* standups the way that professional software development teams do them, rather than just talk about them, or read about them.  Trust me, this will pay off when you are at your first job/internship where they do this, because you'll *know* what's going on.
+   (Yes, we know this may seem silly.  However, the point is to *actually practice* standups the way that professional software development teams do them, rather than just talk about them, or read about them.  Trust us, this will pay off when you are at your first job/internship where they do this, because you'll *know* what's going on.
 
    Plus: right now, while the project is relatively straightforward, the value of this may not be as clear, but as the projects get more complex, trust us, the value will reveal itself.)
 
@@ -68,11 +68,11 @@ We'll add a second important "Agile Ceremony" after the Standup meeting: reviewi
 
 ## Kanban board Video
 
-Here’s a short video (5 minutes, 42 seconds) that goes along with team01; I recommend you watch it sometime over the next couple of days.  It has something easy you can do to help organize your work for team01.
+Here’s a short video (5 minutes, 42 seconds) that goes along with team01; we recommend you watch it sometime over the next couple of days.  It has something easy you can do to help organize your work for team01.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Shi0kzx-3K4?si=nIRab8q2uB-fW7hr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-I suggest you try to complete at least one issue per day starting today; it will be much easier to finish the project by the deadlilne if you do that!
+We suggest you try to complete at least one issue per day starting today; it will be much easier to finish the project by the deadlilne if you do that!
 
 
 ## More on Code Reviews
