@@ -5,6 +5,7 @@ description: "First Standup"
 ready: true
 layout: default
 parent: lectures
+canvas_link: https://ucsb.instructure.com/courses/27687/assignments/381962
 ---
 
 # {{page.title}} - {{page.description}}
@@ -44,7 +45,7 @@ every class will start with a standup meeting.
 
 Submit a link to your standup update on Canvas as pxx
 
-* <>
+* <{{page.canvas_link}}>
 
 Then, update your team Kanban board as explained below.
 
