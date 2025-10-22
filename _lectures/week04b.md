@@ -38,7 +38,7 @@ every class will start with a standup meeting.
 
    (Yes, we know this may seem silly.  However, the point is to *actually practice* standups the way that professional software development teams do them, rather than just talk about them, or read about them.  Trust me, this will pay off when you are at your first job/internship where they do this, because you'll *know* what's going on.
 
-   Plus: right now, while the project is relatively straightforward, the value of this may not be as clear, but as the projects get more complex, trust me, the value will reveal itself.)
+   Plus: right now, while the project is relatively straightforward, the value of this may not be as clear, but as the projects get more complex, trust us, the value will reveal itself.)
 
 3. For anyone that's missing, please check on the slack, and let them know that they missed standup, but that they are encouraged to post a standup update as soon as possible. 
 
