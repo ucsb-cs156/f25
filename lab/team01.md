@@ -1093,7 +1093,8 @@ do
   git clone git@github.com:ucsb-cs156-f25/team01-f25-${team}.git
 done
 ```
-** Add starter remotes **: use a loop like this to add the starter remotes:
+
+**Add starter remotes**: use a loop like this to add the starter remotes:
 ```
 for team in {01..16}
 do
