@@ -20,17 +20,6 @@ help_team02: "[<tt>#help-team02</tt>](https://ucsb-cs156-f25.slack.com/archives/
 nvm_use: "<tt>nvm use 22.18.0</tt>"
 ---
 
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-
 <style>
   tt {white-space: pre;}
   code {white-space: pre; font-size: 80%}
