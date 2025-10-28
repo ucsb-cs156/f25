@@ -12,6 +12,7 @@ starter: https://github.com/ucsb-cs156-f25/STARTER-team02
 sample_team: f25-04
 layout: default
 parent: lab
+github_org: ucsb-cs156-f25
 github_org_url: https://github.com/ucsb-cs156-f25/
 video_testing_pyramid: "[team03 01 - Testing Pyramid (10 min)](https://youtu.be/zvLlO8EUh0c)"
 video_integration_tests: "[team03 02 - Integration Tests (24 min)](https://youtu.be/ohPxfE0hbZI)"
