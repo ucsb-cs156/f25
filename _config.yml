@@ -92,19 +92,19 @@ teams:
     team01_project: "3"
     team02_project: "20"
     legacy_project: "tbd"
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08LSEA0140
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GHFZBLF7
   - team: f25-02
     dokku: "02"
     team01_project: "4"
     team02_project: "22"
     legacy_project: "tbd"
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08KXG6D6Q6
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GZ6G8YFK
   - team: f25-03
     dokku: "03"
     team01_project: "5"
     team02_project: "23"
     legacy_project: "tbd"
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08L6M3TVKM
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GKJMEMM4
   - team: f25-04
     dokku: "04"
     team01_project: "6"
@@ -116,7 +116,7 @@ teams:
     team01_project: "7"
     team02_project: "25"
     legacy_project: "tbd"
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08LEHKQQRF
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GQV265V2
   - team: f25-06
     dokku: "06"
     team01_project: "8"
@@ -134,13 +134,13 @@ teams:
     team01_project: "10"
     team02_project: "28"
     legacy_project: "tbd" 
-    slack: https://ucsb-cs156-f25.slack.com/archives/C09GHFZ0WTX
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09G5988CTH
   - team: f25-09
     dokku: "09"
     team01_project: "11"
     team02_project: "29"
     legacy_project: "tbd" 
-    slack: https://ucsb-cs156-f25.slack.com/archives/C09GKJMPFEJ
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GHFZ372R
   - team: f25-10
     dokku: "10"
     team01_project: "12"
@@ -164,22 +164,24 @@ teams:
     team01_project: "15"
     team02_project: "35"
     legacy_project: "tbd"
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08KP94MNJK
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GHFYSZ2R
   - team: f25-14
     dokku: "14"
     team01_project: "16"
     team02_project: "36"
     legacy_project: "tbd" 
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08L271J4UD
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GKJN9WQ6
   - team: f25-15
     dokku: "15"
     team01_project: "17"
     team02_project: "38"
     legacy_project: "tbd"
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08KP95T8BH
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09HDR9E75E
   - team: f25-16
     dokku: "16"
     team01_project: "18"
     team02_project: "37"
     legacy_project: "tbd" 
-    slack: https://ucsb-cs156-f25.slack.com/archives/C08LEHV0PFT
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09GQV2UVGC
+
+
