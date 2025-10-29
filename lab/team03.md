@@ -20,8 +20,6 @@ video_e2e_tests: "[team03 03 - End-to-end Tests (32 min)](https://youtu.be/SGhXL
 nav_order: 600
 ---
 
-# DON'T START YET
-
 
 <style>
   tt {white-space: pre;}
