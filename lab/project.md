@@ -229,6 +229,12 @@ Staff information for legacy code phase
 
 Use the scripts in <https://github.com/ucsb-cs156-f25/membership-scripts> to create the repos and set them up with branch protections, etc.
 
+Initially, just create team repos the same way you did for STARTER-team01, STARTER-team02, etc., but with a regex for the teams.
+
+This workflow will do it:
+
+* <https://github.com/ucsb-cs156-f25/membership-scripts/actions/workflows/37-create-team-repos-with-regex.yml>
+
 ## Preparing starter repos
 
 Each of the starter repos needs the following preparation
