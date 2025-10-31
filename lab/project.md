@@ -239,6 +239,41 @@ Be careful with the regex:
 
 <img width="335" height="407" alt="image" src="https://github.com/user-attachments/assets/9a873308-e1a1-4bd6-a001-8bfe560dddcc" />
 
+## Setting up Kanban boards
+
+To set up Kanban boards for the legacy code project:
+
+1. Make sure your github organization has a suitable template, i.e. a Kanban board set up with the
+   views you want.  For example, this one: <https://github.com/orgs/ucsb-cs156-f23/projects/28/views/2>
+2. Navigate to the template board so that your screen looks like this:
+
+   <img width="1110" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/876a93c8-3561-4db3-990b-d12b9e37aee4">
+
+3. For each team, click the `Use Template` button, and in the box that comes up, paste in the
+   name of the repo for which you are creating a Kanban board; for example, pasting in `proj-happycows-f23-5pm-2` as shown here.  Also be sure that the owner is the github org for the course, e.g. `ucsb-cs156-f23`:
+
+   <img width="608" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/7f49f240-f3c2-45b2-bb7d-8e9b0e6683e5">
+
+   A kanban board will be created:
+
+   <img width="663" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/579e7152-e75a-44d9-a7b8-6ea02cf41943">
+
+   Repeat for each team.  To make this efficient, you may find that hitting the back button gets you back to the page where you can click `Use Template`; have the previous project name in your copy/paste buffer so that all you have to do is change the team number.
+
+5. If you do these operations consecutively, in order from first to last team, you'll get a range of
+   project numbers, e.g. twelve projects ranging in number from `43` to `54`.
+
+## Add project numbers (kanban board numbers) to Front matter
+
+Next, put these numbers in `_config.yml` file of the repo for the course website.
+
+
+## Link the kanban board to the repos
+
+Use the script: <https://github.com/ucsb-cs156-f25/membership-scripts/actions/workflows/45-link-team-projects.yml>
+
+
+
 
 ## Preparing starter repos
 
@@ -309,39 +344,6 @@ proj_courses_slack_url: https://ucsb-cs156-f23.slack.com/archives/C066057BBHA
 ```
 
 Repeat for every project.
-
-# Setting up Kanban boards
-
-To set up Kanban boards for the legacy code project:
-
-1. Make sure your github organization has a suitable template, i.e. a Kanban board set up with the
-   views you want.  For example, this one: <https://github.com/orgs/ucsb-cs156-f23/projects/28/views/2>
-2. Navigate to the template board so that your screen looks like this:
-
-   <img width="1110" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/876a93c8-3561-4db3-990b-d12b9e37aee4">
-
-3. For each team, click the `Use Template` button, and in the box that comes up, paste in the
-   name of the repo for which you are creating a Kanban board; for example, pasting in `proj-happycows-f23-5pm-2` as shown here.  Also be sure that the owner is the github org for the course, e.g. `ucsb-cs156-f23`:
-
-   <img width="608" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/7f49f240-f3c2-45b2-bb7d-8e9b0e6683e5">
-
-   A kanban board will be created:
-
-   <img width="663" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/579e7152-e75a-44d9-a7b8-6ea02cf41943">
-
-   Repeat for each team.  To make this efficient, you may find that hitting the back button gets you back to the page where you can click `Use Template`; have the previous project name in your copy/paste buffer so that all you have to do is change the team number.
-
-5. If you do these operations consecutively, in order from first to last team, you'll get a range of
-   project numbers, e.g. twelve projects ranging in number from `43` to `54`.
-
-## Add project numbers (kanban board numbers) to Front matter
-
-Next, put these numbers in `_config.yml` file of the repo for the course website.
-
-
-## Link the kanban board to the repos
-
-Use the script: <https://github.com/ucsb-cs156-f25/membership-scripts/actions/workflows/45-link-team-projects.yml>
 
 
 ## Populate repos
