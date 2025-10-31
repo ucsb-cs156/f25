@@ -373,69 +373,6 @@ Finally, run workflow 99 to populate the issues list:
 
 When it finishes, the issues that were tagged with for example `f23` should appear in the issues list.  Student can then add them to the Kanban board as they see fit.
 
-## Special steps per project
-
-#### For courses
-
-You will need to generate a UCSB_API_KEY for each of the teams and share it with them on their slack channel.  They will need this key in order to set up their localhost deployment and their dokku instances.
-
-To create a UCSB_API_KEY, you'll need an account at <https://developer.ucsb.edu>.  To create the key, follow these steps:
-
-First, navigate to the apps page:
-
-<img width="764" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/a718f282-1da5-4584-b2e8-db39f1d8e8fe">
-
-Click `Add App`
-
-Fill in the team name.  You can leave the rest blank, then scroll down to the APIs checkboxes.
-
-<img width="987" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/69b9ba66-bc7d-497a-963c-3f65a3d8b2bf">
-
-Click to choose the APIs to enable.
-
-<img width="916" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/79008e02-2674-40bd-a8b1-639466fc39ee">
-
-Then click "Add App" at the bottom:
-
-<img width="947" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/9a336302-351e-48d7-8785-3663326d1db0">
-
-You will also need to set up a MongoDB database instance (or else give them instructions on how to do it themselves.)
-
-
-## Updating Slack Channel topics
-
-For each team channel, update the "Topic" to be initially this (changing the link in each case).  This gives you a place to keep track of the total points assigned, and a convenient link to
-check the PR queue:
-e
-```
-0/100 pts - PR Queue: https://github.com/ucsb-cs156-f23/proj-happycows-f23-5pm-1/pulls
-```
-
-## Cycling through the team channels
-
-Throughout the legacy code phase, the staff should cycle through the 12 to 16 team channels, checking the PR queues.
-
-The pseudocode for the (manual) procedure is something like this:
-```
-for team in teams:
-  From team's slack channel, click link to team's PRs
-  for PR in PRS:
-     check(PR) (see process below)
-
-def check(PR):
-  if PR (is not green on CI) or (does not have a peer code review) or (has other problem preventing staff review)
-    add red warning labels as needed; return
-  perform code review
-  if code review passes:
-    assign points (using a gold colored label)
-    merge PR
-    update topic on team channel
-```
-
-When updating the topic of the team channel, add the points in to the `0/100 pts` part.
-
-If it's the first time that the team had a merged PR, add a link to the PRs that were merged (e.g. `https://github.com/ucsb-cs156-m23/proj-gauchoride-m23-9am-1/pulls?q=is%3Apr+is%3Amerged+`, and add a bookmark to the full PR queue on the team channel.
-
 ## Setting up Dokku Deployments
 
 We typically set up the following deployments as staff:
@@ -444,19 +381,10 @@ We typically set up the following deployments as staff:
   * <https://github.com/ucsb-cs156/proj-happycows> as <https://happycows.dokku-00.cs.ucsb.edu> and <https://happycows-qa.dokku-00.cs.ucsb.edu>
   * <https://github.com/ucsb-cs156/proj-organic> as <https://organic.dokku-00.cs.ucsb.edu> and <https://organic-qa.dokku-00.cs.ucsb.edu>
   * <https://github.com/ucsb-cs156/proj-courses> as <https://courses.dokku-00.cs.ucsb.edu> and  <https://courses-qa.dokku-00.cs.ucsb.edu>
-* One prod and qa deployment per team
-  * The prod deployments are intended to track the main branch.  It would be desirable, if possible, to set up a cron job to automatically deploy these periodically, or a github action that redeploys them whenever a PR is merged to main, if either or both of those can be done without creating a security issue.  The names are, for example:
-    *  <https://happycows.dokku-01.cs.ucsb.edu>
-    *  <https://happycows.dokku-02.cs.ucsb.edu>
-    *  etc.
-* The qa deployments are intended for staff use when reviewing PRs.
-    *  <https://happycows-qa.dokku-01.cs.ucsb.edu>
-    *  <https://happycows-qa.dokku-02.cs.ucsb.edu>
-    *  etc.
 
 The students are then encouraged to set up personal deployments using the project name and their github id for personal dev testing, and demoing PRs under review. For example:
-*  <https://happycows-cgaucho.dokku-01.cs.ucsb.edu>
-*  <https://happycows-ldelplaya.dokku-01.cs.ucsb.edu>
+*  <https://happycows-dev-cgaucho.dokku-01.cs.ucsb.edu>
+*  <https://happycows-dev-ldelplaya.dokku-01.cs.ucsb.edu>
 *  etc.
 
 Students may create additional deployments if needed.
