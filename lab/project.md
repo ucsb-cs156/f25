@@ -272,8 +272,10 @@ Next, put these numbers in `_config.yml` file of the repo for the course website
 
 Use the script: <https://github.com/ucsb-cs156-f25/membership-scripts/actions/workflows/45-link-team-projects.yml>
 
-
-
+NOTE: This must be done separately for each project, e.g.
+* Run once for proj-courses
+* Run again for proj-dining
+* etc.
 
 ## Preparing starter repos
 
