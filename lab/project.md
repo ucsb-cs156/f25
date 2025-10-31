@@ -294,9 +294,11 @@ Put the github ids of the instructor, TAs and LAs (anyone that can merge into ma
 
 ### Set up branch protections
 
-Instructions for setting up branch protections can be found here:
+This workflow sets up branch protections for legacy code repos, as well as populating the `gh-pages` branch and setting up github pages.
 
-<https://ucsb-cs156.github.io/cs156-guide/1-legacy-code-projects/3-setting-up-projects.html#establishing-branch-protections>
+However, you should not run it until the repos are populated with the starter code.
+
+* <https://github.com/ucsb-cs156-f25/membership-scripts/blob/main/.github/workflows/70-setup-project-repo.yml>
 
 ### Be sure issues you want students to work on are tagged
 
