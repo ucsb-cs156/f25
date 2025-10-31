@@ -235,6 +235,11 @@ This workflow will do it:
 
 * <https://github.com/ucsb-cs156-f25/membership-scripts/actions/workflows/37-create-team-repos-with-regex.yml>
 
+Be careful with the regex:
+
+<img width="335" height="407" alt="image" src="https://github.com/user-attachments/assets/9a873308-e1a1-4bd6-a001-8bfe560dddcc" />
+
+
 ## Preparing starter repos
 
 Each of the starter repos needs the following preparation
