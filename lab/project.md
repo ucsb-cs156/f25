@@ -239,6 +239,9 @@ Be careful with the regex:
 
 <img width="335" height="407" alt="image" src="https://github.com/user-attachments/assets/9a873308-e1a1-4bd6-a001-8bfe560dddcc" />
 
+## Create the Kanban boards
+
+Best way to create the Kanban boards is manually from the template.
 
 ## Preparing starter repos
 
