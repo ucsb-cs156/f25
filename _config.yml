@@ -91,7 +91,8 @@ teams:
     dokku: "01"
     team01_project: "3"
     team02_project: "20"
-    legacy_project: "tbd"
+    legacy_project: "courses"
+    legacy_kanban: "tbd"
     slack: https://ucsb-cs156-f25.slack.com/archives/C09GHFZBLF7
   - team: f25-02
     dokku: "02"
@@ -103,73 +104,85 @@ teams:
     dokku: "03"
     team01_project: "5"
     team02_project: "23"
-    legacy_project: "tbd"
+    legacy_project: "courses"
+    legacy_kanban: "tbd"
     slack: https://ucsb-cs156-f25.slack.com/archives/C09GKJMEMM4
   - team: f25-04
     dokku: "04"
     team01_project: "6"
     team02_project: "24"
-    legacy_project: "tbd" 
+    legacy_project: "courses"
+    legacy_kanban: "tbd"
     slack: https://ucsb-cs156-f25.slack.com/archives/C09GQV2B4UU
   - team: f25-05
     dokku: "05"
     team01_project: "7"
     team02_project: "25"
-    legacy_project: "tbd"
+    legacy_project: "dining"
+    legacy_kanban: "tbd"
     slack: https://ucsb-cs156-f25.slack.com/archives/C09GQV265V2
   - team: f25-06
     dokku: "06"
     team01_project: "8"
     team02_project: "26"
-    legacy_project: "tbd" 
+    legacy_project: "dining"
+    legacy_kanban: "tbd"
     slack: https://ucsb-cs156-f25.slack.com/archives/C09HDR951PA
   - team: f25-07
     dokku: "07"
     team01_project: "9"
     team02_project: "27"
-    legacy_project: "tbd" 
+    legacy_project: "dining"
+    legacy_kanban: "tbd"
     slack: https://ucsb-cs156-f25.slack.com/archives/C09GQV265V2
   - team: f25-08
     dokku: "08"
     team01_project: "10"
     team02_project: "28"
-    legacy_project: "tbd" 
+    legacy_project: "dining" 
+    legacy_kanban: "tbd"
     slack: https://ucsb-cs156-f25.slack.com/archives/C09G5988CTH
   - team: f25-09
     dokku: "09"
     team01_project: "11"
     team02_project: "29"
-    legacy_project: "tbd" 
+    legacy_project: "frontiers" 
+    legacy_kanban: "tbd"
     slack: https://ucsb-cs156-f25.slack.com/archives/C09GHFZ372R
   - team: f25-10
     dokku: "10"
     team01_project: "12"
     team02_project: "30"
-    legacy_project: "tbd" 
+    legacy_project: "frontiers" 
+    legacy_kanban: "tbd"
     slack: https://ucsb-cs156-f25.slack.com/archives/C08L6M9TEBV
   - team: f25-11
     dokku: "11"
     team01_project: "13"
     team02_project: "31"
-    legacy_project: "tbd" 
+    legacy_project: "frontiers" 
+    legacy_kanban: "tbd"
     slack: https://ucsb-cs156-f25.slack.com/archives/C08L26YQDQV
   - team: f25-12
     dokku: "12"
     team01_project: "14"
     team02_project: "33"
-    legacy_project: "tbd" 
+    legacy_project: "frontiers" 
+    legacy_kanban: "tbd"
     slack: https://ucsb-cs156-f25.slack.com/archives/C09GQV2S6BW
   - team: f25-13
     dokku: "13"
     team01_project: "15"
     team02_project: "35"
-    legacy_project: "tbd"
+    legacy_project: "happycows"
+    legacy_kanban: "tbd"
     slack: https://ucsb-cs156-f25.slack.com/archives/C09GHFYSZ2R
   - team: f25-14
     dokku: "14"
     team01_project: "16"
     team02_project: "36"
-    legacy_project: "tbd" 
+    legacy_project: "happycows"
+    legacy_kanban: "tbd"
     slack: https://ucsb-cs156-f25.slack.com/archives/C09GKJN9WQ6
   - team: f25-15
     dokku: "15"
@@ -181,7 +194,8 @@ teams:
     dokku: "16"
     team01_project: "18"
     team02_project: "37"
-    legacy_project: "tbd" 
+    legacy_project: "happycows"
+    legacy_kanban: "tbd"
     slack: https://ucsb-cs156-f25.slack.com/archives/C09GQV2UVGC
 
 
