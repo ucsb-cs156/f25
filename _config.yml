@@ -98,7 +98,8 @@ teams:
     dokku: "02"
     team01_project: "4"
     team02_project: "22"
-    legacy_project: "41"
+    legacy_project: "courses"
+    legacy_kanban: "41"
     slack: https://ucsb-cs156-f25.slack.com/archives/C09GZ6G8YFK
   - team: f25-03
     dokku: "03"
