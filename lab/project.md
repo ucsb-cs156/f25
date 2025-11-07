@@ -352,8 +352,64 @@ Repeat for every project.
 
 ## Populate repos
 
-Scripts to populate the repos are in <https://github.com/ucsb-cs156-f25/project-creator>
 
+### Initial setup of directory
+
+First, `cd` into an appropriate directory.  I use `~/github/ucsb-cs156-f25`, like this:
+
+```
+mkdir -p ~/github/ucsb-cs156-f25
+cd ~/github/ucsb-cs156-f25
+```
+
+### Clone all repos; set up starter remotes
+
+Then, clone all of the repos if you haven't yet, and for each one,
+add a remote for the starter code.
+
+```
+clone_and_setup_starter() {
+  local proj="$1"; shift; local teams=("$@")
+  mkdir -p ~/github/ucsb-cs156-f25
+  for t in "${teams[@]}"; do
+    pushd ~/github/ucsb-cs156-f25
+    git clone git@github.com:ucsb-cs156-f25/proj-$proj-f25-$t.git
+    pushd proj-$proj-f25-$t
+    git remote add starter git@github.com:ucsb-cs156/proj-$proj.git
+    popd
+    popd
+  done
+}
+clone_and_setup_starter courses 01 02 03 04
+clone_and_setup_starter dining 05 06 07 08
+clone_and_setup_starter frontiers 09 10 11 12
+clone_and_setup_starter happycows 13 14 15 16
+```
+
+### Update from starter
+
+This should be run at least once to set up the repos, then periodically to get
+updates to the starter code as needed:
+
+```
+update_from_starter() {
+  local proj="$1"; shift; local teams=("$@")
+  for t in "${teams[@]}"; do
+    pushd ~/github/ucsb-cs156-f25/proj-$proj-f25-$t
+    git fetch starter
+    git fetch origin
+    git checkout main
+    git pull origin main
+    git pull starter main
+    git push origin main
+    popd
+  done
+}
+update_from_starter courses 01 02 03 04
+update_from_starter  dining 05 06 07 08
+update_from_starter frontiers 09 10 11 12
+update_from_starter happycows 13 14 15 16
+```
 
 ## Configure repos
 
