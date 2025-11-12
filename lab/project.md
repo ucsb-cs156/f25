@@ -24,21 +24,6 @@ githubPagesUrl: https://ucsb-cs156-f25.github.io
   td, th { min-width: auto}
 </style>
 
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-
 
 # f25 Legacy Project Launch
 
@@ -196,24 +181,48 @@ Each of these could (and arguably should be) a separate PR!  This helps to keep 
 
 Still, you may need to document in the issues what the dependencies are (e.g. "do issue 12 and 13 before starting 14").
 
-# Setting up dokku prod and qa instances
 
+# Dokku prod and qa instances
 
-* Go ahead and set up prod and qa instances on your dokku machines
-* The process is essentially the same as the one you followed for {{page.jpa_create_dev}}
-* The name of your prod instance should be `course`,  `dining`, `frontiers`, or `happycows` followed by your dokku address (e.g. `rec.dokku-17.cs.ucsb.edu`)
-* The name of your qa instance should be `course`,  `dining`, `frontiers`, or `happycows`  followed by your dokku address (e.g. `rec-qa.dokku-17.cs.ucsb.edu`)
+There are already prod and qa instances set up for each application 
+on your respective dokku machines.
+
+* The name of your prod instance is `course`,  `dining`, `frontiers`, or `happycows` followed by your dokku address (e.g. `rec.dokku-17.cs.ucsb.edu`)
+* The name of your qa instance is `course`,  `dining`, `frontiers`, or `happycows`  followed by your dokku address (e.g. `rec-qa.dokku-17.cs.ucsb.edu`)
+
+There is a scheduled job that updates the prod instances to track the
+main branch of your repo.  You want to ensure that this version is *never broken*; that is, only PRs that will keep the app running smoothly should be merged
+to the main branch.  So don't ask for a PR to be merged if it will "break prod", and
+if prod is broken, get it fixed before anything else.
+
+The qa instance is available to the team
+to try out other functionality; you may deploy any branch to it at any time;
+but be sure to coordinate with your team.
+
+Also: you really should have your own dev instances for doing most testing and demonstration of PRs.
 
 ## Personal dev deployments.
 
-Each team member should also create their own dev instance or instances as needed.  You have one from your work on {{page.jpa_create_dev}}, and you *may create additional ones as needed*.  If you have multiple PRs outstanding, you may need on dev instance for each outstanding PR.  You can reuse these as PRs get merged to main.
+Each team member should also create their own dev instance or instances as needed.
 
+You have one from your work on {{page.jpa_create_dev}} if you completed it already, and you *may create additional ones as needed*.  If you have multiple PRs outstanding, you may need on dev instance for each outstanding PR.  You can reuse these as PRs get merged to main.
+
+It's entirely reasonable that you might end up with 12-18 dev dokku deployments of your app before it's all said and done, though it's best to not get too carried away with creating these; please *reuse* them after PRs get merged so that we
+don't overload the servers too much.
 
 # What should we do to get started?
 
-* Set up prod and qa instances.
+* If you haven't yet, complete jpa05, which is to get a dev instance of this app running.  You'll need a dev instance to be able to do any dev work, so if you didn't do jpa05 yet, that's now your higher priority.
+* If you *did* do jpa05 already, resync your dev instance with the main branch, which may have changed since you completed jpa05.
 * Start reading through the issues
-* Start assigning first issues on the Kanban board
+* Assign yourself a first issue on the Kanban board in the In Progress column.
+* Mostly: *try out the app*.  Before you can make changes to an app, you need to understand how it works.  So once you've chosen an issue, explore the functionality of related parts of the app, using either your dev instance, the prod instance, or the qa instance.
+
+* For Courses: do some course searches.  Set up personal schedules.
+* For Dining: do some reviews (they can be fake ones).
+* For Frontiers: you'll need to create some github organizations to experiment with.  Start creating classes and linking them to organizations.
+* For Happycows: play the game as a team!
+
 
 # Staff Information
 
