@@ -1,7 +1,7 @@
 ---
 title: project
 desc: "Legacy Code Project instructions"
-assigned: 2025-11-12 17:00
+assigned: 2025-11-12 16:00
 due: 2025-11-25 18:00
 github_org: ucsb-cs156-f25
 layout: lab
@@ -27,7 +27,7 @@ githubPagesUrl: https://ucsb-cs156-f25.github.io
 
 # f25 Legacy Project Launch
 
-On {{ page.assigned | date: '%A %B %d %Y at %l:%M%p' }}, in lecture, we'll launch the legacy code projects.
+On {{ page.assigned | date: '%A %B %d %Y at %l:%M%p' }}, in discussion, we'll launch the legacy code projects.
 
 This page describes how that will roll out.
 
