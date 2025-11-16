@@ -199,5 +199,18 @@ teams:
     legacy_project: "happycows"
     legacy_kanban: "55"
     slack: https://ucsb-cs156-f25.slack.com/archives/C09GQV2UVGC
+  - team: f25-17
+    dokku: "17"
+    team01_project: "n/a"
+    team02_project: "n/a"
+    legacy_project: "rec"
+    legacy_kanban: "60"
+  - slack: https://ucsb-cs156-f25.slack.com/archives/C09T3J0F6HZ
+    dokku: "18"
+    team01_project: "n/a"
+    team02_project: "n/a"
+    legacy_project: "rec"
+    legacy_kanban: "61"
+    slack: https://ucsb-cs156-f25.slack.com/archives/C09U49EB508
 
 
