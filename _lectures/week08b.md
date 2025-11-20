@@ -9,6 +9,21 @@ parent: lectures
 
 # {{page.title}} - {{page.descripion}}
 
+## Work on PRs!
+
+You can see the queue of when to expect the next staff PR review on the slack channel [`#pr-queue-reviews`](https://ucsb-cs156-f25.slack.com/archives/C09SV15G8SE)
+
+Reminders:
+* Most PRs need dokku deployments
+* You can (and should) set up multiple dokku dev instances if/when you have multiple unmerged PRs outstanding
+* Don't forget the basics:
+  * Assign the PR
+  * Get a Team CR
+  * No commented out code
+  * Set up a dokku deployment
+  * Make sure the PR has a good description (see: [PR descriptions](https://ucsb-cs156.github.io/topics/GitHub/github_pull_requests.html#pr-descriptions))
+ 
+
 ## When your team is done with legacy code PRs: what to work on next
 
 * Release Notes
