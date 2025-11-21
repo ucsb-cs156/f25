@@ -1,6 +1,6 @@
 <details markdown="1">
 <summary>
-Notes about the final class meeting (Wednesday, June 11, 2025 7:30 PM - 10:30 PM)
+Notes about the final class meeting (Wednesday, December 10, 2025 7:30 PM - 10:30 PM)
 </summary>
 
 # Final Class Meeting
