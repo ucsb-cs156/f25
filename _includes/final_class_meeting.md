@@ -7,7 +7,7 @@ Notes about the final class meeting (Wednesday, December 10, 2025 7:30 PM - 10:3
 
 The final class meeting will take place during the scheduled final exam slot for the course, which is:
 
-* Wednesday, June 11, 2025 7:30 PM - 10:30 PM
+* Wednesday, December 10, 2025 7:30 PM - 10:30 PM
 
 Synchronous participation is required, however partcipation over zoom is fine.
 
