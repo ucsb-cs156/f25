@@ -31,6 +31,8 @@ You can find samples of release notes at these links:
 * [proj-courses](https://github.com/ucsb-cs156/proj-courses/tree/main/docs/release-notes)
 * [proj-dining](https://github.com/ucsb-cs156/proj-dining/tree/main/docs/release-notes)
 * [proj-rec](https://github.com/ucsb-cs156/proj-rec/tree/main/docs/release-notes)
+* [proj-frontiers](https://github.com/ucsb-cs156/proj-frontiers/tree/main/docs/release-notes)
+* [proj-happycows](https://github.com/ucsb-cs156/proj-happycows/tree/main/docs/release-notes)
 
 We do not have any samples for Frontiers since this is the first quarter that CS156 teams have worked on proj-frontiers.
 
