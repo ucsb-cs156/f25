@@ -87,6 +87,31 @@ even though the features were implemented.
 | [487](https://github.com/ucsb-cs156/proj-frontiers/issues/487) Change title of site from Vite + React to Frontiers | - | - | - | - |
 
 
+
+## Legacy repository: proj-happycows
+
+| issue | f25-13 | f25-14 | f25-15 | f25-16 |
+|---| ---|---|---|---|
+| [149](https://github.com/ucsb-cs156/proj-happycows/issues/149) Add Admin/Developer Info page. | [PR21](https://github.com/ucsb-cs156-f25/proj-happycows-f25-13/pull/21) | [PR8](https://github.com/ucsb-cs156-f25/proj-happycows-f25-14/pull/8) | [PR9](https://github.com/ucsb-cs156-f25/proj-happycows-f25-15/pull/9) | [PR10](https://github.com/ucsb-cs156-f25/proj-happycows-f25-16/pull/10) |
+| [150](https://github.com/ucsb-cs156/proj-happycows/issues/150) Add launcher for `/api/jobs/launch/recordcommonstats` to Admin Jobs page | [PR23](https://github.com/ucsb-cs156-f25/proj-happycows-f25-13/pull/23)  [PR30](https://github.com/ucsb-cs156-f25/proj-happycows-f25-13/pull/30) | [PR18](https://github.com/ucsb-cs156-f25/proj-happycows-f25-14/pull/18) | [PR16](https://github.com/ucsb-cs156-f25/proj-happycows-f25-15/pull/16) | - |
+| [154](https://github.com/ucsb-cs156/proj-happycows/issues/154) UX REDESIGN: Redesign the Admin List Commons Page | - | [PR11](https://github.com/ucsb-cs156-f25/proj-happycows-f25-14/pull/11) | [PR13](https://github.com/ucsb-cs156-f25/proj-happycows-f25-15/pull/13) | [PR11](https://github.com/ucsb-cs156-f25/proj-happycows-f25-16/pull/11) |
+| [179](https://github.com/ucsb-cs156/proj-happycows/issues/179) UX Refactor: Pagination of chat messages | - | [PR19](https://github.com/ucsb-cs156-f25/proj-happycows-f25-14/pull/19) | [PR31](https://github.com/ucsb-cs156-f25/proj-happycows-f25-15/pull/31) | [PR9](https://github.com/ucsb-cs156-f25/proj-happycows-f25-16/pull/9) |
+| [183](https://github.com/ucsb-cs156/proj-happycows/issues/183) [DIFFICULT] WireMock dependency upgrade | - | - | - | - |
+| [184](https://github.com/ucsb-cs156/proj-happycows/issues/184) [TASK] Reintroduce React Eslint Rules | - | - | - | - |
+| [186](https://github.com/ucsb-cs156/proj-happycows/issues/186) Restore title HappyCows (not Vite + React) and if possible, favicon | - | - | - | - |
+| [187](https://github.com/ucsb-cs156/proj-happycows/issues/187) Navigation and default Home page redesign | [PR28](https://github.com/ucsb-cs156-f25/proj-happycows-f25-13/pull/28) | [PR13](https://github.com/ucsb-cs156-f25/proj-happycows-f25-14/pull/13) | [PR17](https://github.com/ucsb-cs156-f25/proj-happycows-f25-15/pull/17) | - |
+| [189](https://github.com/ucsb-cs156/proj-happycows/issues/189) CRUD operations for courses (admin only) | - | - | - | - |
+| [190](https://github.com/ucsb-cs156/proj-happycows/issues/190) FRONTEND:  Form for Course | [PR48](https://github.com/ucsb-cs156-f25/proj-happycows-f25-13/pull/48) | - | - | - |
+| [191](https://github.com/ucsb-cs156/proj-happycows/issues/191) FRONTEND: Course Table | [PR47](https://github.com/ucsb-cs156-f25/proj-happycows-f25-13/pull/47) | - | - | [PR36](https://github.com/ucsb-cs156-f25/proj-happycows-f25-16/pull/36) |
+| [192](https://github.com/ucsb-cs156/proj-happycows/issues/192) Full CRUD (frontend + backend) for Courses | - | - | - | - |
+| [193](https://github.com/ucsb-cs156/proj-happycows/issues/193) Commons Features Enumeration | [PR43](https://github.com/ucsb-cs156-f25/proj-happycows-f25-13/pull/43) | [PR29](https://github.com/ucsb-cs156-f25/proj-happycows-f25-14/pull/29)  [PR30](https://github.com/ucsb-cs156-f25/proj-happycows-f25-14/pull/30) | [PR30](https://github.com/ucsb-cs156-f25/proj-happycows-f25-15/pull/30) | [PR37](https://github.com/ucsb-cs156-f25/proj-happycows-f25-16/pull/37)  [PR40](https://github.com/ucsb-cs156-f25/proj-happycows-f25-16/pull/40) |
+| [194](https://github.com/ucsb-cs156/proj-happycows/issues/194) Commons Features API endpoint | [PR43](https://github.com/ucsb-cs156-f25/proj-happycows-f25-13/pull/43)  [PR46](https://github.com/ucsb-cs156-f25/proj-happycows-f25-13/pull/46) | - | - | [PR40](https://github.com/ucsb-cs156-f25/proj-happycows-f25-16/pull/40) |
+| [195](https://github.com/ucsb-cs156/proj-happycows/issues/195) React component for toggling CommonsFeatures | - | - | - | [PR41](https://github.com/ucsb-cs156-f25/proj-happycows-f25-16/pull/41) |
+| [196](https://github.com/ucsb-cs156/proj-happycows/issues/196) EPIC: Tax Features | - | - | - | - |
+
+
+
+
 ## Legacy repository: proj-rec
 
 | issue | f25-17 | f25-18 |
