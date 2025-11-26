@@ -15,6 +15,9 @@ the issues closed by the team.
 
 Note that additional issues introduced by the team later might not appears in these tables.
 
+Also note that in cases where the issues were not linked to the PR, or the issues have different names from the original issues, PRs might not show up,
+even though the features were implemented.
+
 
 ## Legacy repository: proj-courses
 
