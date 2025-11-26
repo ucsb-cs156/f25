@@ -19,6 +19,7 @@ Also note that in cases where the issues were not linked to the PR, or the issue
 even though the features were implemented.
 
 
+
 ## Legacy repository: proj-courses
 
 | issue | f25-01 | f25-02 | f25-03 | f25-04 |
@@ -69,21 +70,21 @@ even though the features were implemented.
 
 ## Legacy repository: proj-frontiers
 
-| issue | STAFF-test | f25-09 | f25-10 | f25-11 | f25-12 |
-|---| ---|---|---|---|---|
-| [304](https://github.com/ucsb-cs156/proj-frontiers/issues/304) REFACTOR: Dry up the SigninPage and PromptSigninPage | - | [PR49](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-09/pull/49) | [PR21](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-10/pull/21)  [PR54](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-10/pull/54) | [PR28](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-11/pull/28) | [PR27](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-12/pull/27) |
-| [340](https://github.com/ucsb-cs156/proj-frontiers/issues/340) On the page where you can upload roster students, add a link to the Help Page for CSV formats | - | [PR22](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-09/pull/22) | [PR27](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-10/pull/27) | [PR27](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-11/pull/27) | - |
-| [406](https://github.com/ucsb-cs156/proj-frontiers/issues/406) FEATURE: Add update of "section" to POST and PUT for roster student. | - | [PR41](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-09/pull/41) | [PR28](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-10/pull/28) | [PR60](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-11/pull/60) | - |
-| [437](https://github.com/ucsb-cs156/proj-frontiers/issues/437) FEATURE: Add course deletion (for admins only) | - | - | - | - | - |
-| [442](https://github.com/ucsb-cs156/proj-frontiers/issues/442) Rename the "Management" tab on the InstructorCourseShowPage component to a Settings tab (preferably, flush right) | - | - | - | - | - |
-| [460](https://github.com/ucsb-cs156/proj-frontiers/issues/460) EPIC: Assignments | - | - | - | - | - |
-| [468](https://github.com/ucsb-cs156/proj-frontiers/issues/468) Add an optional remove from organization to course staff delete | - | [PR38](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-09/pull/38)  [PR39](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-09/pull/39)  [PR50](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-09/pull/50) | [PR23](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-10/pull/23) | [PR24](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-11/pull/24) | [PR17](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-12/pull/17) |
-| [474](https://github.com/ucsb-cs156/proj-frontiers/issues/474) Update Documentation for Frontiers CSV Download and Upload formats | - | - | [PR42](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-10/pull/42) | [PR58](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-11/pull/58) | - |
-| [480](https://github.com/ucsb-cs156/proj-frontiers/issues/480) EPIC: When creating individual assignment repos, give option to create for staff (or not) | - | - | - | - | - |
-| [481](https://github.com/ucsb-cs156/proj-frontiers/issues/481) UX IMPROVEMENT: Sort by last name or first name, or better yet, allow selection by typing part of the name | - | [PR17](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-09/pull/17) | [PR24](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-10/pull/24)  [PR31](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-10/pull/31) | [PR56](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-11/pull/56) | [PR16](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-12/pull/16)  [PR21](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-12/pull/21) |
-| [484](https://github.com/ucsb-cs156/proj-frontiers/issues/484) Sanitize email addresses in backend endpoints that take email addresses | - | [PR20](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-09/pull/20) | [PR39](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-10/pull/39) | [PR26](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-11/pull/26) | [PR14](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-12/pull/14) |
-| [485](https://github.com/ucsb-cs156/proj-frontiers/issues/485) [TASK] Reintroduce React Eslint Rules | - | - | - | - | - |
-| [487](https://github.com/ucsb-cs156/proj-frontiers/issues/487) Change title of site from Vite + React to Frontiers | - | - | - | - | - |
+| issue | f25-09 | f25-10 | f25-11 | f25-12 |
+|---| ---|---|---|---|
+| [304](https://github.com/ucsb-cs156/proj-frontiers/issues/304) REFACTOR: Dry up the SigninPage and PromptSigninPage | [PR49](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-09/pull/49) | [PR21](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-10/pull/21)  [PR54](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-10/pull/54) | [PR28](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-11/pull/28) | [PR27](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-12/pull/27) |
+| [340](https://github.com/ucsb-cs156/proj-frontiers/issues/340) On the page where you can upload roster students, add a link to the Help Page for CSV formats | [PR22](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-09/pull/22) | [PR27](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-10/pull/27) | [PR27](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-11/pull/27) | - |
+| [406](https://github.com/ucsb-cs156/proj-frontiers/issues/406) FEATURE: Add update of "section" to POST and PUT for roster student. | [PR41](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-09/pull/41) | [PR28](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-10/pull/28) | [PR60](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-11/pull/60) | - |
+| [437](https://github.com/ucsb-cs156/proj-frontiers/issues/437) FEATURE: Add course deletion (for admins only) | - | - | - | - |
+| [442](https://github.com/ucsb-cs156/proj-frontiers/issues/442) Rename the "Management" tab on the InstructorCourseShowPage component to a Settings tab (preferably, flush right) | - | - | - | - |
+| [460](https://github.com/ucsb-cs156/proj-frontiers/issues/460) EPIC: Assignments | - | - | - | - |
+| [468](https://github.com/ucsb-cs156/proj-frontiers/issues/468) Add an optional remove from organization to course staff delete | [PR38](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-09/pull/38)  [PR39](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-09/pull/39)  [PR50](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-09/pull/50) | [PR23](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-10/pull/23) | [PR24](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-11/pull/24) | [PR17](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-12/pull/17) |
+| [474](https://github.com/ucsb-cs156/proj-frontiers/issues/474) Update Documentation for Frontiers CSV Download and Upload formats | - | [PR42](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-10/pull/42) | [PR58](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-11/pull/58) | - |
+| [480](https://github.com/ucsb-cs156/proj-frontiers/issues/480) EPIC: When creating individual assignment repos, give option to create for staff (or not) | - | - | - | - |
+| [481](https://github.com/ucsb-cs156/proj-frontiers/issues/481) UX IMPROVEMENT: Sort by last name or first name, or better yet, allow selection by typing part of the name | [PR17](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-09/pull/17) | [PR24](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-10/pull/24)  [PR31](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-10/pull/31) | [PR56](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-11/pull/56) | [PR16](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-12/pull/16)  [PR21](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-12/pull/21) |
+| [484](https://github.com/ucsb-cs156/proj-frontiers/issues/484) Sanitize email addresses in backend endpoints that take email addresses | [PR20](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-09/pull/20) | [PR39](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-10/pull/39) | [PR26](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-11/pull/26) | [PR14](https://github.com/ucsb-cs156-f25/proj-frontiers-f25-12/pull/14) |
+| [485](https://github.com/ucsb-cs156/proj-frontiers/issues/485) [TASK] Reintroduce React Eslint Rules | - | - | - | - |
+| [487](https://github.com/ucsb-cs156/proj-frontiers/issues/487) Change title of site from Vite + React to Frontiers | - | - | - | - |
 
 
 ## Legacy repository: proj-rec
